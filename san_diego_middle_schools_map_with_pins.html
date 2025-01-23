@@ -1,0 +1,3830 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1c1a232f72edd25041afde5b314219bf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1c1a232f72edd25041afde5b314219bf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1c1a232f72edd25041afde5b314219bf = L.map(
+                "map_1c1a232f72edd25041afde5b314219bf",
+                {
+                    center: [32.7157, -117.1611],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 9,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_876aac59542f35368cab2ae481794b7f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_876aac59542f35368cab2ae481794b7f.addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var marker_b62c191bf8ac16dbd3abf667aad6e03c = L.marker(
+                [32.681171, -117.049224],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_0571ce112e3fde8bf5b2018449d70144 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b62c191bf8ac16dbd3abf667aad6e03c.setIcon(icon_0571ce112e3fde8bf5b2018449d70144);
+        
+    
+        var popup_d4148ec089c0be403fc87b3075140074 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89211e616a3a3f3cb5b48871242a9073 = $(`<div id="html_89211e616a3a3f3cb5b48871242a9073" style="width: 100.0%; height: 100.0%;"><strong>Audubon K-8 School</strong><br>Score: 0.0</div>`)[0];
+                popup_d4148ec089c0be403fc87b3075140074.setContent(html_89211e616a3a3f3cb5b48871242a9073);
+            
+        
+
+        marker_b62c191bf8ac16dbd3abf667aad6e03c.bindPopup(popup_d4148ec089c0be403fc87b3075140074)
+        ;
+
+        
+    
+    
+            var marker_4391b2537bc02eded1a4c4187e07e2e2 = L.marker(
+                [32.687309, -117.038197],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_fe3c5b7a4f49c4c63395cafe5c38e0f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4391b2537bc02eded1a4c4187e07e2e2.setIcon(icon_fe3c5b7a4f49c4c63395cafe5c38e0f3);
+        
+    
+        var popup_537886793a437e5d96d87d8169153af0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_972e5303a062919cc58dfada95a43e12 = $(`<div id="html_972e5303a062919cc58dfada95a43e12" style="width: 100.0%; height: 100.0%;"><strong>Bell Middle School</strong><br>Score: 0.0</div>`)[0];
+                popup_537886793a437e5d96d87d8169153af0.setContent(html_972e5303a062919cc58dfada95a43e12);
+            
+        
+
+        marker_4391b2537bc02eded1a4c4187e07e2e2.bindPopup(popup_537886793a437e5d96d87d8169153af0)
+        ;
+
+        
+    
+    
+            var marker_94650fcde2258ce39c28ca96c685666f = L.marker(
+                [32.69015, -117.049798],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_b981e0d5a82cb6a14d9ec44a78135408 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_94650fcde2258ce39c28ca96c685666f.setIcon(icon_b981e0d5a82cb6a14d9ec44a78135408);
+        
+    
+        var popup_f54dd5ef3df069e4d1759bf0aa5f9906 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9851b07077740f71a560a4119c464b72 = $(`<div id="html_9851b07077740f71a560a4119c464b72" style="width: 100.0%; height: 100.0%;"><strong>Bethune K-8 School</strong><br>Score: 0.0</div>`)[0];
+                popup_f54dd5ef3df069e4d1759bf0aa5f9906.setContent(html_9851b07077740f71a560a4119c464b72);
+            
+        
+
+        marker_94650fcde2258ce39c28ca96c685666f.bindPopup(popup_f54dd5ef3df069e4d1759bf0aa5f9906)
+        ;
+
+        
+    
+    
+            var marker_08f7f2352d5c8d9018e5a447dc16ec0e = L.marker(
+                [32.915637, -117.153401],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_e628dd51554044470e06c744b76255de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_08f7f2352d5c8d9018e5a447dc16ec0e.setIcon(icon_e628dd51554044470e06c744b76255de);
+        
+    
+        var popup_f76f33ae7011f60a6a86d5d9b1cb6852 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65ddcf761ef5e709805575fa0b3da7df = $(`<div id="html_65ddcf761ef5e709805575fa0b3da7df" style="width: 100.0%; height: 100.0%;"><strong>Challenger Middle School</strong><br>Score: 0.0</div>`)[0];
+                popup_f76f33ae7011f60a6a86d5d9b1cb6852.setContent(html_65ddcf761ef5e709805575fa0b3da7df);
+            
+        
+
+        marker_08f7f2352d5c8d9018e5a447dc16ec0e.bindPopup(popup_f76f33ae7011f60a6a86d5d9b1cb6852)
+        ;
+
+        
+    
+    
+            var marker_a506f3f9266e193ebfc8fc5e44afcffc = L.marker(
+                [32.7401, -117.11],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_f3c8f29c8536d9b970bb867a8ea3d8ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a506f3f9266e193ebfc8fc5e44afcffc.setIcon(icon_f3c8f29c8536d9b970bb867a8ea3d8ab);
+        
+    
+        var popup_b9d28b9a3faf2551a9043e067346e652 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96a123b481790f21d1c0a897609bec3b = $(`<div id="html_96a123b481790f21d1c0a897609bec3b" style="width: 100.0%; height: 100.0%;"><strong>Clark Middle School</strong><br>Score: 2.0</div>`)[0];
+                popup_b9d28b9a3faf2551a9043e067346e652.setContent(html_96a123b481790f21d1c0a897609bec3b);
+            
+        
+
+        marker_a506f3f9266e193ebfc8fc5e44afcffc.bindPopup(popup_b9d28b9a3faf2551a9043e067346e652)
+        ;
+
+        
+    
+    
+            var marker_925615ede32309447754556ce4068474 = L.marker(
+                [32.748295, -117.231602],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_99d0c73ae824975a7f84b5eb986f6dfb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_925615ede32309447754556ce4068474.setIcon(icon_99d0c73ae824975a7f84b5eb986f6dfb);
+        
+    
+        var popup_11dd069885b29ac78705e586ebbf082a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4afec58005e129595c4dc102bc9a9200 = $(`<div id="html_4afec58005e129595c4dc102bc9a9200" style="width: 100.0%; height: 100.0%;"><strong>Correia Middle School</strong><br>Score: 0.0</div>`)[0];
+                popup_11dd069885b29ac78705e586ebbf082a.setContent(html_4afec58005e129595c4dc102bc9a9200);
+            
+        
+
+        marker_925615ede32309447754556ce4068474.bindPopup(popup_11dd069885b29ac78705e586ebbf082a)
+        ;
+
+        
+    
+    
+            var marker_f1a800ea2a910830acd659bd60bb7092 = L.marker(
+                [32.8583, -117.2278],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_da8e9306ae86f55aff525cafe98ce31a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f1a800ea2a910830acd659bd60bb7092.setIcon(icon_da8e9306ae86f55aff525cafe98ce31a);
+        
+    
+        var popup_0e8d80511b4691ea243b0443fab3de91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c7f4a4a496e605154391ca5eafddac8 = $(`<div id="html_2c7f4a4a496e605154391ca5eafddac8" style="width: 100.0%; height: 100.0%;"><strong>Creative Performing Media Arts Magnet Middle School</strong><br>Score: 0.0</div>`)[0];
+                popup_0e8d80511b4691ea243b0443fab3de91.setContent(html_2c7f4a4a496e605154391ca5eafddac8);
+            
+        
+
+        marker_f1a800ea2a910830acd659bd60bb7092.bindPopup(popup_0e8d80511b4691ea243b0443fab3de91)
+        ;
+
+        
+    
+    
+            var marker_5ec6592b4184061cbc22989654383e85 = L.marker(
+                [32.7411, -117.2411],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_8788793ad6dca38d46d25eeaa6b5fdbb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5ec6592b4184061cbc22989654383e85.setIcon(icon_8788793ad6dca38d46d25eeaa6b5fdbb);
+        
+    
+        var popup_0244b99f64cac7d451ccf40b523970c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e06d6c5308f78b999a354b8ce6874ac = $(`<div id="html_3e06d6c5308f78b999a354b8ce6874ac" style="width: 100.0%; height: 100.0%;"><strong>Dana Middle School</strong><br>Score: 6.0</div>`)[0];
+                popup_0244b99f64cac7d451ccf40b523970c8.setContent(html_3e06d6c5308f78b999a354b8ce6874ac);
+            
+        
+
+        marker_5ec6592b4184061cbc22989654383e85.bindPopup(popup_0244b99f64cac7d451ccf40b523970c8)
+        ;
+
+        
+    
+    
+            var marker_432da125fdb60c125108ed263139ce59 = L.marker(
+                [32.829414, -117.0873133],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_8df5447b59247fb3c427535c7bd2f4b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_432da125fdb60c125108ed263139ce59.setIcon(icon_8df5447b59247fb3c427535c7bd2f4b1);
+        
+    
+        var popup_9d89e47abd82f86778fb1c5825fe6028 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_560e701fc942d12211fe2047c0e28f31 = $(`<div id="html_560e701fc942d12211fe2047c0e28f31" style="width: 100.0%; height: 100.0%;"><strong>De Portola Middle School</strong><br>Score: 0.0</div>`)[0];
+                popup_9d89e47abd82f86778fb1c5825fe6028.setContent(html_560e701fc942d12211fe2047c0e28f31);
+            
+        
+
+        marker_432da125fdb60c125108ed263139ce59.bindPopup(popup_9d89e47abd82f86778fb1c5825fe6028)
+        ;
+
+        
+    
+    
+            var marker_7bdf1fd76c4f3c57da662ece0982206f = L.marker(
+                [32.820657, -117.099284],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_771e8c44c35f0f4964837858794f791c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7bdf1fd76c4f3c57da662ece0982206f.setIcon(icon_771e8c44c35f0f4964837858794f791c);
+        
+    
+        var popup_f42c8071652648976fa5d3d5af4d73e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_347e7c491aab09e0a86906a3c786ed4c = $(`<div id="html_347e7c491aab09e0a86906a3c786ed4c" style="width: 100.0%; height: 100.0%;"><strong>Jean Farb Middle School</strong><br>Score: 0.0</div>`)[0];
+                popup_f42c8071652648976fa5d3d5af4d73e3.setContent(html_347e7c491aab09e0a86906a3c786ed4c);
+            
+        
+
+        marker_7bdf1fd76c4f3c57da662ece0982206f.bindPopup(popup_f42c8071652648976fa5d3d5af4d73e3)
+        ;
+
+        
+    
+    
+            var marker_e901e6bb901f5c461e8c21e0162b9bef = L.marker(
+                [32.7041, -117.07],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_3a97bf349ed13e113b07715c3a6d44d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e901e6bb901f5c461e8c21e0162b9bef.setIcon(icon_3a97bf349ed13e113b07715c3a6d44d1);
+        
+    
+        var popup_0b14704b883340fc0e981724bc34024b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8732544906d90452962533f5ab89a9cd = $(`<div id="html_8732544906d90452962533f5ab89a9cd" style="width: 100.0%; height: 100.0%;"><strong>Fulton K-8 School</strong><br>Score: 0.0</div>`)[0];
+                popup_0b14704b883340fc0e981724bc34024b.setContent(html_8732544906d90452962533f5ab89a9cd);
+            
+        
+
+        marker_e901e6bb901f5c461e8c21e0162b9bef.bindPopup(popup_0b14704b883340fc0e981724bc34024b)
+        ;
+
+        
+    
+    
+            var marker_786f2dae6febea574167c6d08f082526 = L.marker(
+                [32.7341, -117.115],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_5e2df9464aad4b2fa65bf98e7cddeb9b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_786f2dae6febea574167c6d08f082526.setIcon(icon_5e2df9464aad4b2fa65bf98e7cddeb9b);
+        
+    
+        var popup_a2f3b6b57c0ce048aa74a890f52af440 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a12c404f55c2b7873bb2b118ae5b1dd = $(`<div id="html_3a12c404f55c2b7873bb2b118ae5b1dd" style="width: 100.0%; height: 100.0%;"><strong>Golden Hill K-8 School</strong><br>Score: 0.0</div>`)[0];
+                popup_a2f3b6b57c0ce048aa74a890f52af440.setContent(html_3a12c404f55c2b7873bb2b118ae5b1dd);
+            
+        
+
+        marker_786f2dae6febea574167c6d08f082526.bindPopup(popup_a2f3b6b57c0ce048aa74a890f52af440)
+        ;
+
+        
+    
+    
+            var marker_fbe792afe1cf53da390a56aae7f57ade = L.marker(
+                [32.7491, -117.1711],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_0c20d2a70308a4ef4d0a7911b77758ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fbe792afe1cf53da390a56aae7f57ade.setIcon(icon_0c20d2a70308a4ef4d0a7911b77758ae);
+        
+    
+        var popup_c5208c65d51a542c47952d60bf800699 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5469ecdaa39e4de984c1e05b9689cc04 = $(`<div id="html_5469ecdaa39e4de984c1e05b9689cc04" style="width: 100.0%; height: 100.0%;"><strong>Grant K-8 School</strong><br>Score: 0.0</div>`)[0];
+                popup_c5208c65d51a542c47952d60bf800699.setContent(html_5469ecdaa39e4de984c1e05b9689cc04);
+            
+        
+
+        marker_fbe792afe1cf53da390a56aae7f57ade.bindPopup(popup_c5208c65d51a542c47952d60bf800699)
+        ;
+
+        
+    
+    
+            var marker_1c95897fd4364b6a95e3a1fda43cd55b = L.marker(
+                [32.8373, -117.2278],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_98b916cb4dbe386390d59c276db7f2cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1c95897fd4364b6a95e3a1fda43cd55b.setIcon(icon_98b916cb4dbe386390d59c276db7f2cc);
+        
+    
+        var popup_cb661e4437cdab63bd0a9d8885d818b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a18f3ad55704858276e3c5e47610487a = $(`<div id="html_a18f3ad55704858276e3c5e47610487a" style="width: 100.0%; height: 100.0%;"><strong>Innovation Middle School</strong><br>Score: 7.0</div>`)[0];
+                popup_cb661e4437cdab63bd0a9d8885d818b4.setContent(html_a18f3ad55704858276e3c5e47610487a);
+            
+        
+
+        marker_1c95897fd4364b6a95e3a1fda43cd55b.bindPopup(popup_cb661e4437cdab63bd0a9d8885d818b4)
+        ;
+
+        
+    
+    
+            var marker_9172b26e14ee879162c4a283d0f6e9ac = L.marker(
+                [32.823344, -117.194243],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_c002f3a359e615c639c590904102461b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9172b26e14ee879162c4a283d0f6e9ac.setIcon(icon_c002f3a359e615c639c590904102461b);
+        
+    
+        var popup_b93198d9d6686e16f69484b92a888f62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f49004a9ebe232c5cbfd81d2d3de2fb4 = $(`<div id="html_f49004a9ebe232c5cbfd81d2d3de2fb4" style="width: 100.0%; height: 100.0%;"><strong>John Muir K-8 Language Academy</strong><br>Score: 0.0</div>`)[0];
+                popup_b93198d9d6686e16f69484b92a888f62.setContent(html_f49004a9ebe232c5cbfd81d2d3de2fb4);
+            
+        
+
+        marker_9172b26e14ee879162c4a283d0f6e9ac.bindPopup(popup_b93198d9d6686e16f69484b92a888f62)
+        ;
+
+        
+    
+    
+            var marker_e357d3b36678295f93a6cd917d248404 = L.marker(
+                [32.7041, -117.07],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_9588715307603034d92d8f2f310d258f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e357d3b36678295f93a6cd917d248404.setIcon(icon_9588715307603034d92d8f2f310d258f);
+        
+    
+        var popup_506e81e5d3e148ecfd1bc9fea4329aa5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85574079ff52aaa60c98290d694a9bfe = $(`<div id="html_85574079ff52aaa60c98290d694a9bfe" style="width: 100.0%; height: 100.0%;"><strong>Knox Middle School</strong><br>Score: 3.0</div>`)[0];
+                popup_506e81e5d3e148ecfd1bc9fea4329aa5.setContent(html_85574079ff52aaa60c98290d694a9bfe);
+            
+        
+
+        marker_e357d3b36678295f93a6cd917d248404.bindPopup(popup_506e81e5d3e148ecfd1bc9fea4329aa5)
+        ;
+
+        
+    
+    
+            var marker_69e4a9b48986a82827856ce72ecb7025 = L.marker(
+                [32.7483, -117.0733],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_68dff665d990b277cf34f69da9db5e18 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_69e4a9b48986a82827856ce72ecb7025.setIcon(icon_68dff665d990b277cf34f69da9db5e18);
+        
+    
+        var popup_e652c53ac1c1d5490c93d4c44554b38e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f74831d7ec22ec9d3f342b84c4033e31 = $(`<div id="html_f74831d7ec22ec9d3f342b84c4033e31" style="width: 100.0%; height: 100.0%;"><strong>Language Academy K-8 School</strong><br>Score: 0.0</div>`)[0];
+                popup_e652c53ac1c1d5490c93d4c44554b38e.setContent(html_f74831d7ec22ec9d3f342b84c4033e31);
+            
+        
+
+        marker_69e4a9b48986a82827856ce72ecb7025.bindPopup(popup_e652c53ac1c1d5490c93d4c44554b38e)
+        ;
+
+        
+    
+    
+            var marker_df259fdd427f074d33a5115d7ad38492 = L.marker(
+                [32.8083, -117.0733],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_a246630fe646b5ac9d8787b92dce4baa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_df259fdd427f074d33a5115d7ad38492.setIcon(icon_a246630fe646b5ac9d8787b92dce4baa);
+        
+    
+        var popup_3908baa0ac8cb6885d2c027d2e9fc31d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb3a22ab4cb43e9001f86f648e913286 = $(`<div id="html_eb3a22ab4cb43e9001f86f648e913286" style="width: 100.0%; height: 100.0%;"><strong>Lewis Middle School</strong><br>Score: 3.0</div>`)[0];
+                popup_3908baa0ac8cb6885d2c027d2e9fc31d.setContent(html_eb3a22ab4cb43e9001f86f648e913286);
+            
+        
+
+        marker_df259fdd427f074d33a5115d7ad38492.bindPopup(popup_3908baa0ac8cb6885d2c027d2e9fc31d)
+        ;
+
+        
+    
+    
+            var marker_399be18bc82c91de33b29d6cc45f7374 = L.marker(
+                [32.70101, -117.13226],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_6e4bede05f54765d06083d01e52f33b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_399be18bc82c91de33b29d6cc45f7374.setIcon(icon_6e4bede05f54765d06083d01e52f33b8);
+        
+    
+        var popup_937a630ddabd75a0ada2660a2dd7958c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3250c7393b9fbeebeadde3f6340034f2 = $(`<div id="html_3250c7393b9fbeebeadde3f6340034f2" style="width: 100.0%; height: 100.0%;"><strong>Logan Memorial K-8 Educational Campus</strong><br>Score: 0.0</div>`)[0];
+                popup_937a630ddabd75a0ada2660a2dd7958c.setContent(html_3250c7393b9fbeebeadde3f6340034f2);
+            
+        
+
+        marker_399be18bc82c91de33b29d6cc45f7374.bindPopup(popup_937a630ddabd75a0ada2660a2dd7958c)
+        ;
+
+        
+    
+    
+            var marker_2321b5db6b0608f19867290f3b98a568 = L.marker(
+                [32.8053, -117.2111],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_1117550bff395c44ced9642e2b64fb42 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2321b5db6b0608f19867290f3b98a568.setIcon(icon_1117550bff395c44ced9642e2b64fb42);
+        
+    
+        var popup_826f96c5917cbb81eb23fc3e2ac7b4db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b588427602fbfb3d789c8a6b282dc6e3 = $(`<div id="html_b588427602fbfb3d789c8a6b282dc6e3" style="width: 100.0%; height: 100.0%;"><strong>Longfellow Spanish Immersion Magnet School</strong><br>Score: 0.0</div>`)[0];
+                popup_826f96c5917cbb81eb23fc3e2ac7b4db.setContent(html_b588427602fbfb3d789c8a6b282dc6e3);
+            
+        
+
+        marker_2321b5db6b0608f19867290f3b98a568.bindPopup(popup_826f96c5917cbb81eb23fc3e2ac7b4db)
+        ;
+
+        
+    
+    
+            var marker_d2acce222a41b3d51a029f5a9edaaa60 = L.marker(
+                [32.7483, -117.0733],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_e214e0e8b58b18d25d1591ad85df5069 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d2acce222a41b3d51a029f5a9edaaa60.setIcon(icon_e214e0e8b58b18d25d1591ad85df5069);
+        
+    
+        var popup_be59e1f7b120171ea29d03728070a619 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a34a8631eb3899d96bf1528f8bbabf2f = $(`<div id="html_a34a8631eb3899d96bf1528f8bbabf2f" style="width: 100.0%; height: 100.0%;"><strong>Mann Middle School</strong><br>Score: 5.0</div>`)[0];
+                popup_be59e1f7b120171ea29d03728070a619.setContent(html_a34a8631eb3899d96bf1528f8bbabf2f);
+            
+        
+
+        marker_d2acce222a41b3d51a029f5a9edaaa60.bindPopup(popup_be59e1f7b120171ea29d03728070a619)
+        ;
+
+        
+    
+    
+            var marker_339a0754f056daf9a7e2ca591e9d3e63 = L.marker(
+                [32.8583, -117.2278],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_a7825c088ea1de2434ecc9980aa708f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_339a0754f056daf9a7e2ca591e9d3e63.setIcon(icon_a7825c088ea1de2434ecc9980aa708f9);
+        
+    
+        var popup_dcfff728a80661db490553b8276dcec0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f540e209af8342008950401ee27c1ede = $(`<div id="html_f540e209af8342008950401ee27c1ede" style="width: 100.0%; height: 100.0%;"><strong>Marston Middle School</strong><br>Score: 2.0</div>`)[0];
+                popup_dcfff728a80661db490553b8276dcec0.setContent(html_f540e209af8342008950401ee27c1ede);
+            
+        
+
+        marker_339a0754f056daf9a7e2ca591e9d3e63.bindPopup(popup_dcfff728a80661db490553b8276dcec0)
+        ;
+
+        
+    
+    
+            var marker_4cf135210435ef0ecdb80f7bae0d3c3e = L.marker(
+                [32.7111, -117.115],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_0a259dfb8334a65145a179a83238253b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4cf135210435ef0ecdb80f7bae0d3c3e.setIcon(icon_0a259dfb8334a65145a179a83238253b);
+        
+    
+        var popup_09b6761cc9665af8d2338b3190f23401 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee4f28680576b69c05173dbb0982395d = $(`<div id="html_ee4f28680576b69c05173dbb0982395d" style="width: 100.0%; height: 100.0%;"><strong>Millennial Tech Middle</strong><br>Score: 5.0</div>`)[0];
+                popup_09b6761cc9665af8d2338b3190f23401.setContent(html_ee4f28680576b69c05173dbb0982395d);
+            
+        
+
+        marker_4cf135210435ef0ecdb80f7bae0d3c3e.bindPopup(popup_09b6761cc9665af8d2338b3190f23401)
+        ;
+
+        
+    
+    
+            var marker_0a6097757e45360544df4ebff0bb783b = L.marker(
+                [32.8583, -117.2278],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_920ef3abc9e6b3c0a6e16e70155143b7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0a6097757e45360544df4ebff0bb783b.setIcon(icon_920ef3abc9e6b3c0a6e16e70155143b7);
+        
+    
+        var popup_8e3ad146e074946bd00d98dd9ec1587e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9c6dfe8c4dfbb642f82fe9f6b615545 = $(`<div id="html_e9c6dfe8c4dfbb642f82fe9f6b615545" style="width: 100.0%; height: 100.0%;"><strong>Montgomery Middle School</strong><br>Score: 5.0</div>`)[0];
+                popup_8e3ad146e074946bd00d98dd9ec1587e.setContent(html_e9c6dfe8c4dfbb642f82fe9f6b615545);
+            
+        
+
+        marker_0a6097757e45360544df4ebff0bb783b.bindPopup(popup_8e3ad146e074946bd00d98dd9ec1587e)
+        ;
+
+        
+    
+    
+            var marker_16b395db25a1975881bb7e88ddec5e53 = L.marker(
+                [32.70101, -117.13226],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_a83c10d0eef88edd7644b83f788a108c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_16b395db25a1975881bb7e88ddec5e53.setIcon(icon_a83c10d0eef88edd7644b83f788a108c);
+        
+    
+        var popup_bd78425e9a3f0f584a13f7a4bca32a6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_511e2d33c05dad943f1e7fcd4b5bd957 = $(`<div id="html_511e2d33c05dad943f1e7fcd4b5bd957" style="width: 100.0%; height: 100.0%;"><strong>Mountain View K-8 School</strong><br>Score: 5.0</div>`)[0];
+                popup_bd78425e9a3f0f584a13f7a4bca32a6d.setContent(html_511e2d33c05dad943f1e7fcd4b5bd957);
+            
+        
+
+        marker_16b395db25a1975881bb7e88ddec5e53.bindPopup(popup_bd78425e9a3f0f584a13f7a4bca32a6d)
+        ;
+
+        
+    
+    
+            var marker_d3bcf25172270bf2f710b274fa177ebd = L.marker(
+                [32.819994, -117.187193],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_15570684a92522a4e5536d475f564d6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d3bcf25172270bf2f710b274fa177ebd.setIcon(icon_15570684a92522a4e5536d475f564d6d);
+        
+    
+        var popup_9bea02c84abb7176f6ecfb6f4df06a9b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7bddf68f16ae99639b7cd94935e5a971 = $(`<div id="html_7bddf68f16ae99639b7cd94935e5a971" style="width: 100.0%; height: 100.0%;"><strong>Mt. Everest Academy</strong><br>Score: 2.0</div>`)[0];
+                popup_9bea02c84abb7176f6ecfb6f4df06a9b.setContent(html_7bddf68f16ae99639b7cd94935e5a971);
+            
+        
+
+        marker_d3bcf25172270bf2f710b274fa177ebd.bindPopup(popup_9bea02c84abb7176f6ecfb6f4df06a9b)
+        ;
+
+        
+    
+    
+            var marker_652ea8e9989e3ee467894564ad852f66 = L.marker(
+                [32.8332336, -117.2690829],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_6c615d1cca125d16bf2cba1eb3abdf42 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_652ea8e9989e3ee467894564ad852f66.setIcon(icon_6c615d1cca125d16bf2cba1eb3abdf42);
+        
+    
+        var popup_1fc892da7d6c158336171b4f8c11573e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_577e736c9b23f43fb43b53b11fe222e6 = $(`<div id="html_577e736c9b23f43fb43b53b11fe222e6" style="width: 100.0%; height: 100.0%;"><strong>Muirlands Middle School</strong><br>Score: 2.0</div>`)[0];
+                popup_1fc892da7d6c158336171b4f8c11573e.setContent(html_577e736c9b23f43fb43b53b11fe222e6);
+            
+        
+
+        marker_652ea8e9989e3ee467894564ad852f66.bindPopup(popup_1fc892da7d6c158336171b4f8c11573e)
+        ;
+
+        
+    
+    
+            var marker_deb8482b24da2db5bb5d535f106cc420 = L.marker(
+                [32.8012, -117.2431],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_ec65816478a28c1b23d5f3c3c07af825 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_deb8482b24da2db5bb5d535f106cc420.setIcon(icon_ec65816478a28c1b23d5f3c3c07af825);
+        
+    
+        var popup_685d2f145fb7bb1a5af39515bf8b975e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46e69578349d1be2b739436f13c67ea2 = $(`<div id="html_46e69578349d1be2b739436f13c67ea2" style="width: 100.0%; height: 100.0%;"><strong>Pacific Beach Middle School</strong><br>Score: 0.0</div>`)[0];
+                popup_685d2f145fb7bb1a5af39515bf8b975e.setContent(html_46e69578349d1be2b739436f13c67ea2);
+            
+        
+
+        marker_deb8482b24da2db5bb5d535f106cc420.bindPopup(popup_685d2f145fb7bb1a5af39515bf8b975e)
+        ;
+
+        
+    
+    
+            var marker_16e2d9b6e39486f11620e51ad734d348 = L.marker(
+                [32.70101, -117.13226],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_e224a033582c37d7b416ab2c21236e80 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_16e2d9b6e39486f11620e51ad734d348.setIcon(icon_e224a033582c37d7b416ab2c21236e80);
+        
+    
+        var popup_f09f6240d45d02baeea26a8dc99e7941 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc00af1cc18423bfc7c76fa67301de09 = $(`<div id="html_dc00af1cc18423bfc7c76fa67301de09" style="width: 100.0%; height: 100.0%;"><strong>Perkins K-8 School</strong><br>Score: 3.0</div>`)[0];
+                popup_f09f6240d45d02baeea26a8dc99e7941.setContent(html_dc00af1cc18423bfc7c76fa67301de09);
+            
+        
+
+        marker_16e2d9b6e39486f11620e51ad734d348.bindPopup(popup_f09f6240d45d02baeea26a8dc99e7941)
+        ;
+
+        
+    
+    
+            var marker_eeeb885c0df7a236c38497a92cad07e9 = L.marker(
+                [32.8583, -117.2278],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_72223eb6d1ef4721720c672fcd7669ce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_eeeb885c0df7a236c38497a92cad07e9.setIcon(icon_72223eb6d1ef4721720c672fcd7669ce);
+        
+    
+        var popup_72db0639b6f355d0ff4140345100c189 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb4b945b34dee188ec76f1bcaa12aea0 = $(`<div id="html_bb4b945b34dee188ec76f1bcaa12aea0" style="width: 100.0%; height: 100.0%;"><strong>Pershing Middle School</strong><br>Score: 5.0</div>`)[0];
+                popup_72db0639b6f355d0ff4140345100c189.setContent(html_bb4b945b34dee188ec76f1bcaa12aea0);
+            
+        
+
+        marker_eeeb885c0df7a236c38497a92cad07e9.bindPopup(popup_72db0639b6f355d0ff4140345100c189)
+        ;
+
+        
+    
+    
+            var marker_49e06f35bc6083a89a4179a72640ca5a = L.marker(
+                [32.74064254760742, -117.14742279052734],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_a1486c91d5c8098c31b5279c5877ff5e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_49e06f35bc6083a89a4179a72640ca5a.setIcon(icon_a1486c91d5c8098c31b5279c5877ff5e);
+        
+    
+        var popup_6d5c5ade73a83081945aca54285f2a1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_944ebe4da8bd9ffd3309db726eb8aa37 = $(`<div id="html_944ebe4da8bd9ffd3309db726eb8aa37" style="width: 100.0%; height: 100.0%;"><strong>Roosevelt International Middle School</strong><br>Score: 2.0</div>`)[0];
+                popup_6d5c5ade73a83081945aca54285f2a1d.setContent(html_944ebe4da8bd9ffd3309db726eb8aa37);
+            
+        
+
+        marker_49e06f35bc6083a89a4179a72640ca5a.bindPopup(popup_6d5c5ade73a83081945aca54285f2a1d)
+        ;
+
+        
+    
+    
+            var marker_33d814f1157b157100bdd433b1cda67c = L.marker(
+                [32.679771, -117.048057],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_87f8235bc7e25fda6c3328368bf326e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_33d814f1157b157100bdd433b1cda67c.setIcon(icon_87f8235bc7e25fda6c3328368bf326e1);
+        
+    
+        var popup_55cbea4e8a994ae4ecf57a385d214a69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fffde0fe61dec230a77a3b9e75faedb = $(`<div id="html_0fffde0fe61dec230a77a3b9e75faedb" style="width: 100.0%; height: 100.0%;"><strong>San Diego School of Creative and Performing Arts</strong><br>Score: 0.0</div>`)[0];
+                popup_55cbea4e8a994ae4ecf57a385d214a69.setContent(html_0fffde0fe61dec230a77a3b9e75faedb);
+            
+        
+
+        marker_33d814f1157b157100bdd433b1cda67c.bindPopup(popup_55cbea4e8a994ae4ecf57a385d214a69)
+        ;
+
+        
+    
+    
+            var marker_7697cf2237533e7cbb431039dbecf52a = L.marker(
+                [32.853108, -117.2067268],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_cbc45bbd30b6f8d396916f5050ce583f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7697cf2237533e7cbb431039dbecf52a.setIcon(icon_cbc45bbd30b6f8d396916f5050ce583f);
+        
+    
+        var popup_b49164a529451bebf5f7214c4611e37e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f380a301b3b34e2ca70e6b506d1bc3c9 = $(`<div id="html_f380a301b3b34e2ca70e6b506d1bc3c9" style="width: 100.0%; height: 100.0%;"><strong>Standley Middle School</strong><br>Score: 0.0</div>`)[0];
+                popup_b49164a529451bebf5f7214c4611e37e.setContent(html_f380a301b3b34e2ca70e6b506d1bc3c9);
+            
+        
+
+        marker_7697cf2237533e7cbb431039dbecf52a.bindPopup(popup_b49164a529451bebf5f7214c4611e37e)
+        ;
+
+        
+    
+    
+            var marker_ea057648b5b26d9369eac6286b94e1f1 = L.marker(
+                [32.801042, -117.13122],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_fd413c37bc2dd4c85c3cb0ad98cdbbd0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ea057648b5b26d9369eac6286b94e1f1.setIcon(icon_fd413c37bc2dd4c85c3cb0ad98cdbbd0);
+        
+    
+        var popup_7cac8dfb0c9fe0317f5e6d388b34046c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58d0238841bcbb2225895485123d3afb = $(`<div id="html_58d0238841bcbb2225895485123d3afb" style="width: 100.0%; height: 100.0%;"><strong>Taft Middle School</strong><br>Score: 6.0</div>`)[0];
+                popup_7cac8dfb0c9fe0317f5e6d388b34046c.setContent(html_58d0238841bcbb2225895485123d3afb);
+            
+        
+
+        marker_ea057648b5b26d9369eac6286b94e1f1.bindPopup(popup_7cac8dfb0c9fe0317f5e6d388b34046c)
+        ;
+
+        
+    
+    
+            var marker_6456028ca56d479fc41a3ed10632d64e = L.marker(
+                [32.8962, -117.0992],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_96cddac9a615a27d80c23a4f5ecde3e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6456028ca56d479fc41a3ed10632d64e.setIcon(icon_96cddac9a615a27d80c23a4f5ecde3e2);
+        
+    
+        var popup_5df148834ac00d718fa8fdeec129ce88 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_633b5e66bcc865018ced2fb36b42e644 = $(`<div id="html_633b5e66bcc865018ced2fb36b42e644" style="width: 100.0%; height: 100.0%;"><strong>Thurgood Marshall Middle School</strong><br>Score: 16.0</div>`)[0];
+                popup_5df148834ac00d718fa8fdeec129ce88.setContent(html_633b5e66bcc865018ced2fb36b42e644);
+            
+        
+
+        marker_6456028ca56d479fc41a3ed10632d64e.bindPopup(popup_5df148834ac00d718fa8fdeec129ce88)
+        ;
+
+        
+    
+    
+            var marker_0b6dc61fcbd0608c87145cf49b971fd8 = L.marker(
+                [32.90755, -117.125516],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_4eb741278d5ca410634d4d00c2cd3364 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0b6dc61fcbd0608c87145cf49b971fd8.setIcon(icon_4eb741278d5ca410634d4d00c2cd3364);
+        
+    
+        var popup_02a63a390b0d61d5be5b6962f3997a6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4121dc511ac308f95c10e05fe5ee5b7 = $(`<div id="html_b4121dc511ac308f95c10e05fe5ee5b7" style="width: 100.0%; height: 100.0%;"><strong>Wangenheim Middle School</strong><br>Score: 4.0</div>`)[0];
+                popup_02a63a390b0d61d5be5b6962f3997a6e.setContent(html_b4121dc511ac308f95c10e05fe5ee5b7);
+            
+        
+
+        marker_0b6dc61fcbd0608c87145cf49b971fd8.bindPopup(popup_02a63a390b0d61d5be5b6962f3997a6e)
+        ;
+
+        
+    
+    
+            var marker_1bb990a91cc91cec4230b6fe20d9abd8 = L.marker(
+                [32.7348, -117.089],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_4f65bf24ea5c7942994d5529ff85ee33 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1bb990a91cc91cec4230b6fe20d9abd8.setIcon(icon_4f65bf24ea5c7942994d5529ff85ee33);
+        
+    
+        var popup_9f09a9bfc1d07dc41635c07c28daf1c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53d43e66eefda3c008a29a3fc90cc8b1 = $(`<div id="html_53d43e66eefda3c008a29a3fc90cc8b1" style="width: 100.0%; height: 100.0%;"><strong>Wilson Middle School</strong><br>Score: 2.0</div>`)[0];
+                popup_9f09a9bfc1d07dc41635c07c28daf1c7.setContent(html_53d43e66eefda3c008a29a3fc90cc8b1);
+            
+        
+
+        marker_1bb990a91cc91cec4230b6fe20d9abd8.bindPopup(popup_9f09a9bfc1d07dc41635c07c28daf1c7)
+        ;
+
+        
+    
+    
+            var marker_bac1091d68589b8bc90c16351cc2b854 = L.marker(
+                [32.998, -117.0703],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_ca1b7f28aa90e7602dbb34d3a0e1976b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bac1091d68589b8bc90c16351cc2b854.setIcon(icon_ca1b7f28aa90e7602dbb34d3a0e1976b);
+        
+    
+        var popup_04d9d53fad719f3c3c2c473ab04ee747 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b42f31970eeb61264b5407f48866485 = $(`<div id="html_9b42f31970eeb61264b5407f48866485" style="width: 100.0%; height: 100.0%;"><strong>Bernardo Heights Middle School</strong><br>Score: 18.0</div>`)[0];
+                popup_04d9d53fad719f3c3c2c473ab04ee747.setContent(html_9b42f31970eeb61264b5407f48866485);
+            
+        
+
+        marker_bac1091d68589b8bc90c16351cc2b854.bindPopup(popup_04d9d53fad719f3c3c2c473ab04ee747)
+        ;
+
+        
+    
+    
+            var marker_5849edcac2abf35564e0895e3ea4c4a8 = L.marker(
+                [32.9583, -117.1278],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_6e7507c85d595cd91104e94b3349b4b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5849edcac2abf35564e0895e3ea4c4a8.setIcon(icon_6e7507c85d595cd91104e94b3349b4b6);
+        
+    
+        var popup_4e3cd13af1a84583bd5ecb3255acd4ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f42ca4003e5baacbb56b15924ab2a8e7 = $(`<div id="html_f42ca4003e5baacbb56b15924ab2a8e7" style="width: 100.0%; height: 100.0%;"><strong>Black Mountain Middle School</strong><br>Score: 10.0</div>`)[0];
+                popup_4e3cd13af1a84583bd5ecb3255acd4ab.setContent(html_f42ca4003e5baacbb56b15924ab2a8e7);
+            
+        
+
+        marker_5849edcac2abf35564e0895e3ea4c4a8.bindPopup(popup_4e3cd13af1a84583bd5ecb3255acd4ab)
+        ;
+
+        
+    
+    
+            var marker_f27d09549ad223d3d07f7d67391a43ef = L.marker(
+                [33.0195, -117.118],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_c13fe2aeaec35be389bca1af5b6e0be0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f27d09549ad223d3d07f7d67391a43ef.setIcon(icon_c13fe2aeaec35be389bca1af5b6e0be0);
+        
+    
+        var popup_651f78f3b0f03bb4a5353febcab77ebe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c27b5c0a8d80931bbbccbcfd4ab31074 = $(`<div id="html_c27b5c0a8d80931bbbccbcfd4ab31074" style="width: 100.0%; height: 100.0%;"><strong>Connect Academy</strong><br>Score: 11.0</div>`)[0];
+                popup_651f78f3b0f03bb4a5353febcab77ebe.setContent(html_c27b5c0a8d80931bbbccbcfd4ab31074);
+            
+        
+
+        marker_f27d09549ad223d3d07f7d67391a43ef.bindPopup(popup_651f78f3b0f03bb4a5353febcab77ebe)
+        ;
+
+        
+    
+    
+            var marker_857f53284a29103e9ba362b4d3696654 = L.marker(
+                [33.0195, -117.118],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_d6c8d89133d41b97c3589f8c358b4a9b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_857f53284a29103e9ba362b4d3696654.setIcon(icon_d6c8d89133d41b97c3589f8c358b4a9b);
+        
+    
+        var popup_08457288f10cc1c733ce4cbdab8cbac1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cba0bb321c1d9065ef5dc3ccc16ab9bb = $(`<div id="html_cba0bb321c1d9065ef5dc3ccc16ab9bb" style="width: 100.0%; height: 100.0%;"><strong>Design39Campus</strong><br>Score: 15.0</div>`)[0];
+                popup_08457288f10cc1c733ce4cbdab8cbac1.setContent(html_cba0bb321c1d9065ef5dc3ccc16ab9bb);
+            
+        
+
+        marker_857f53284a29103e9ba362b4d3696654.bindPopup(popup_08457288f10cc1c733ce4cbdab8cbac1)
+        ;
+
+        
+    
+    
+            var marker_20a9228716b00caa753e107b6d362780 = L.marker(
+                [32.973, -117.055],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_55c657284a4f24059a9c5ebc71775537 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_20a9228716b00caa753e107b6d362780.setIcon(icon_55c657284a4f24059a9c5ebc71775537);
+        
+    
+        var popup_c098a85130e0c6eab7bbc5a1ec9a2024 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b3fc40ab38d02187aa8bd06d7073ded = $(`<div id="html_5b3fc40ab38d02187aa8bd06d7073ded" style="width: 100.0%; height: 100.0%;"><strong>Meadowbrook Middle School</strong><br>Score: 7.0</div>`)[0];
+                popup_c098a85130e0c6eab7bbc5a1ec9a2024.setContent(html_5b3fc40ab38d02187aa8bd06d7073ded);
+            
+        
+
+        marker_20a9228716b00caa753e107b6d362780.bindPopup(popup_c098a85130e0c6eab7bbc5a1ec9a2024)
+        ;
+
+        
+    
+    
+            var marker_658480a451cf7c91aba515c639440eb6 = L.marker(
+                [32.9583, -117.1278],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_03edf7a362164ac4dc00e96e180aeb01 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_658480a451cf7c91aba515c639440eb6.setIcon(icon_03edf7a362164ac4dc00e96e180aeb01);
+        
+    
+        var popup_9180a0a2c24a0e12f01731b31cbf7a36 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28a0292c79a3fa956c54e46f45d21b30 = $(`<div id="html_28a0292c79a3fa956c54e46f45d21b30" style="width: 100.0%; height: 100.0%;"><strong>Mesa Verde Middle School</strong><br>Score: 9.0</div>`)[0];
+                popup_9180a0a2c24a0e12f01731b31cbf7a36.setContent(html_28a0292c79a3fa956c54e46f45d21b30);
+            
+        
+
+        marker_658480a451cf7c91aba515c639440eb6.bindPopup(popup_9180a0a2c24a0e12f01731b31cbf7a36)
+        ;
+
+        
+    
+    
+            var marker_691ed97f2028b0c51fd5d172f4ad88d6 = L.marker(
+                [33.0112, -117.0965],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_9813221a85f8fb0fb9842fb89fbbc989 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_691ed97f2028b0c51fd5d172f4ad88d6.setIcon(icon_9813221a85f8fb0fb9842fb89fbbc989);
+        
+    
+        var popup_e7abae12c2466e98887b12372899d0bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7d2f54456072b2785472d7812cb0a6a = $(`<div id="html_c7d2f54456072b2785472d7812cb0a6a" style="width: 100.0%; height: 100.0%;"><strong>Oak Valley Middle School</strong><br>Score: 10.0</div>`)[0];
+                popup_e7abae12c2466e98887b12372899d0bb.setContent(html_c7d2f54456072b2785472d7812cb0a6a);
+            
+        
+
+        marker_691ed97f2028b0c51fd5d172f4ad88d6.bindPopup(popup_e7abae12c2466e98887b12372899d0bb)
+        ;
+
+        
+    
+    
+            var marker_8f80ee62b2b1de3240c44d66c1790826 = L.marker(
+                [32.979, -117.0291],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_8d7a488cc9885133817913cbd978d621 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8f80ee62b2b1de3240c44d66c1790826.setIcon(icon_8d7a488cc9885133817913cbd978d621);
+        
+    
+        var popup_4e658c06ffc066e607a4e25d7aa026a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07ea13d9c990a53cc5109775557f278d = $(`<div id="html_07ea13d9c990a53cc5109775557f278d" style="width: 100.0%; height: 100.0%;"><strong>Twin Peaks Middle School</strong><br>Score: 11.0</div>`)[0];
+                popup_4e658c06ffc066e607a4e25d7aa026a9.setContent(html_07ea13d9c990a53cc5109775557f278d);
+            
+        
+
+        marker_8f80ee62b2b1de3240c44d66c1790826.bindPopup(popup_4e658c06ffc066e607a4e25d7aa026a9)
+        ;
+
+        
+    
+    
+            var marker_0d52ba74230811d9fc6186062eefed27 = L.marker(
+                [33.2414, -117.3186],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_4c26380cafe77787cf448b5f8c73b74e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0d52ba74230811d9fc6186062eefed27.setIcon(icon_4c26380cafe77787cf448b5f8c73b74e);
+        
+    
+        var popup_13298186f9366c8832f0607cc665e737 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4de49b1dead701c46479bc70c904925 = $(`<div id="html_d4de49b1dead701c46479bc70c904925" style="width: 100.0%; height: 100.0%;"><strong>Chavez Middle School</strong><br>Score: 1.0</div>`)[0];
+                popup_13298186f9366c8832f0607cc665e737.setContent(html_d4de49b1dead701c46479bc70c904925);
+            
+        
+
+        marker_0d52ba74230811d9fc6186062eefed27.bindPopup(popup_13298186f9366c8832f0607cc665e737)
+        ;
+
+        
+    
+    
+            var marker_14f158d5981dc50b21f8050f22fdb5cb = L.marker(
+                [33.2099791, -117.3636254],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_9f38ce6d419ceac7c9a617186b243076 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_14f158d5981dc50b21f8050f22fdb5cb.setIcon(icon_9f38ce6d419ceac7c9a617186b243076);
+        
+    
+        var popup_3d3289ef173bafe15a56dbdc7ab529e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5086d2a0ab88ce4c3d7bed0bffbc16e5 = $(`<div id="html_5086d2a0ab88ce4c3d7bed0bffbc16e5" style="width: 100.0%; height: 100.0%;"><strong>Jefferson Middle School</strong><br>Score: 3.0</div>`)[0];
+                popup_3d3289ef173bafe15a56dbdc7ab529e3.setContent(html_5086d2a0ab88ce4c3d7bed0bffbc16e5);
+            
+        
+
+        marker_14f158d5981dc50b21f8050f22fdb5cb.bindPopup(popup_3d3289ef173bafe15a56dbdc7ab529e3)
+        ;
+
+        
+    
+    
+            var marker_fb8524333ee1c62ec7ac676da801df77 = L.marker(
+                [33.187726, -117.352563],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_15280ab968d63e0120e5adfb1353f191 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fb8524333ee1c62ec7ac676da801df77.setIcon(icon_15280ab968d63e0120e5adfb1353f191);
+        
+    
+        var popup_9d6146cd475b70ffc6e6e247c929be79 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c80e32524153e5bfe6c92a0d0c1280f = $(`<div id="html_5c80e32524153e5bfe6c92a0d0c1280f" style="width: 100.0%; height: 100.0%;"><strong>Lincoln Middle School</strong><br>Score: 0.0</div>`)[0];
+                popup_9d6146cd475b70ffc6e6e247c929be79.setContent(html_5c80e32524153e5bfe6c92a0d0c1280f);
+            
+        
+
+        marker_fb8524333ee1c62ec7ac676da801df77.bindPopup(popup_9d6146cd475b70ffc6e6e247c929be79)
+        ;
+
+        
+    
+    
+            var marker_72bc4b1508ede4c225c018fbd0769893 = L.marker(
+                [33.1877, -117.3526],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_f1af335c488041aed95dd8bcf1366b37 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_72bc4b1508ede4c225c018fbd0769893.setIcon(icon_f1af335c488041aed95dd8bcf1366b37);
+        
+    
+        var popup_8e6b126bf06911784b2535bd39c5bfd3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2670f5be5a74303c677c03b08527b3c9 = $(`<div id="html_2670f5be5a74303c677c03b08527b3c9" style="width: 100.0%; height: 100.0%;"><strong>Martin Luther King Middle School</strong><br>Score: 0.0</div>`)[0];
+                popup_8e6b126bf06911784b2535bd39c5bfd3.setContent(html_2670f5be5a74303c677c03b08527b3c9);
+            
+        
+
+        marker_72bc4b1508ede4c225c018fbd0769893.bindPopup(popup_8e6b126bf06911784b2535bd39c5bfd3)
+        ;
+
+        
+    
+    
+            var marker_c136ea2cf157ecc83863620292ef0ff4 = L.marker(
+                [32.6463399, -117.0021133],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_63f0f7bea8fdff593e359aedf75c3b0a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c136ea2cf157ecc83863620292ef0ff4.setIcon(icon_63f0f7bea8fdff593e359aedf75c3b0a);
+        
+    
+        var popup_de17cc94a41bcd20c308a4b2ab1741b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c737198f7b4bd9541290870f25bbe69 = $(`<div id="html_9c737198f7b4bd9541290870f25bbe69" style="width: 100.0%; height: 100.0%;"><strong>Bonita Vista Middle School</strong><br>Score: 1.0</div>`)[0];
+                popup_de17cc94a41bcd20c308a4b2ab1741b1.setContent(html_9c737198f7b4bd9541290870f25bbe69);
+            
+        
+
+        marker_c136ea2cf157ecc83863620292ef0ff4.bindPopup(popup_de17cc94a41bcd20c308a4b2ab1741b1)
+        ;
+
+        
+    
+    
+            var marker_1b4842efdaed896608b90838971f9bd2 = L.marker(
+                [32.6048459, -117.0593393],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_bd3a621270c7f9a5f3876b05bf63ceb3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1b4842efdaed896608b90838971f9bd2.setIcon(icon_bd3a621270c7f9a5f3876b05bf63ceb3);
+        
+    
+        var popup_e8571cacae5056871ed0844cf8e8aa18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1423c7d65fd48bb802cd5a0fa8d5910f = $(`<div id="html_1423c7d65fd48bb802cd5a0fa8d5910f" style="width: 100.0%; height: 100.0%;"><strong>Castle Park Middle School</strong><br>Score: 0.0</div>`)[0];
+                popup_e8571cacae5056871ed0844cf8e8aa18.setContent(html_1423c7d65fd48bb802cd5a0fa8d5910f);
+            
+        
+
+        marker_1b4842efdaed896608b90838971f9bd2.bindPopup(popup_e8571cacae5056871ed0844cf8e8aa18)
+        ;
+
+        
+    
+    
+            var marker_034e42aac80707c6abc6bd95e5303606 = L.marker(
+                [32.635105, -117.086489],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_38e5761dd6766f3f36a67bff7889215b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_034e42aac80707c6abc6bd95e5303606.setIcon(icon_38e5761dd6766f3f36a67bff7889215b);
+        
+    
+        var popup_179d96b87aaefa3450ca4d987753b7ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5623298d9ff9259a5176bcc2ab8b31b5 = $(`<div id="html_5623298d9ff9259a5176bcc2ab8b31b5" style="width: 100.0%; height: 100.0%;"><strong>Chula Vista Middle School</strong><br>Score: 0.0</div>`)[0];
+                popup_179d96b87aaefa3450ca4d987753b7ec.setContent(html_5623298d9ff9259a5176bcc2ab8b31b5);
+            
+        
+
+        marker_034e42aac80707c6abc6bd95e5303606.bindPopup(popup_179d96b87aaefa3450ca4d987753b7ec)
+        ;
+
+        
+    
+    
+            var marker_243879c47b3d0c6fa7b2c0f78e39561f = L.marker(
+                [32.6544854, -116.9486184],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_b597b2164bd3d429d17a3f5d25115f77 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_243879c47b3d0c6fa7b2c0f78e39561f.setIcon(icon_b597b2164bd3d429d17a3f5d25115f77);
+        
+    
+        var popup_556590fa998dabce98353a644070bd12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44c87de66b38cbfd8b1dc38c4f606324 = $(`<div id="html_44c87de66b38cbfd8b1dc38c4f606324" style="width: 100.0%; height: 100.0%;"><strong>EastLake Middle School</strong><br>Score: 5.0</div>`)[0];
+                popup_556590fa998dabce98353a644070bd12.setContent(html_44c87de66b38cbfd8b1dc38c4f606324);
+            
+        
+
+        marker_243879c47b3d0c6fa7b2c0f78e39561f.bindPopup(popup_556590fa998dabce98353a644070bd12)
+        ;
+
+        
+    
+    
+            var marker_756ead115719051a93a63769063869ee = L.marker(
+                [32.6727, -117.0738],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_c2299847ad7d16733fadf33ebcb235d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_756ead115719051a93a63769063869ee.setIcon(icon_c2299847ad7d16733fadf33ebcb235d1);
+        
+    
+        var popup_10e9a013c6957464d13d122bb44882a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8327191b84c981b29bee6cac8c0e39f = $(`<div id="html_b8327191b84c981b29bee6cac8c0e39f" style="width: 100.0%; height: 100.0%;"><strong>Granger Junior High School</strong><br>Score: 0.0</div>`)[0];
+                popup_10e9a013c6957464d13d122bb44882a7.setContent(html_b8327191b84c981b29bee6cac8c0e39f);
+            
+        
+
+        marker_756ead115719051a93a63769063869ee.bindPopup(popup_10e9a013c6957464d13d122bb44882a7)
+        ;
+
+        
+    
+    
+            var marker_d25db7e06cb2b5051b29cc955c9030e5 = L.marker(
+                [32.6313, -117.0609],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_7db9c0358247d5bd42c6993eb7f30d83 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d25db7e06cb2b5051b29cc955c9030e5.setIcon(icon_7db9c0358247d5bd42c6993eb7f30d83);
+        
+    
+        var popup_a39badeba41bb13bdb9cd15e58df7ad8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e7b55df8751cac652bea5a64fd8115a = $(`<div id="html_0e7b55df8751cac652bea5a64fd8115a" style="width: 100.0%; height: 100.0%;"><strong>Hilltop Middle School</strong><br>Score: 5.0</div>`)[0];
+                popup_a39badeba41bb13bdb9cd15e58df7ad8.setContent(html_0e7b55df8751cac652bea5a64fd8115a);
+            
+        
+
+        marker_d25db7e06cb2b5051b29cc955c9030e5.bindPopup(popup_a39badeba41bb13bdb9cd15e58df7ad8)
+        ;
+
+        
+    
+    
+            var marker_8beb2cc5de12613640ea1e72b7fd6dbf = L.marker(
+                [32.5659773, -117.0164787],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_306483364a73a7603888fdc1adaf0ea1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8beb2cc5de12613640ea1e72b7fd6dbf.setIcon(icon_306483364a73a7603888fdc1adaf0ea1);
+        
+    
+        var popup_c54ce7e8d280c83fe434b842ef596dfb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4e090fca07c0d99ce6169ae5ab5359a = $(`<div id="html_c4e090fca07c0d99ce6169ae5ab5359a" style="width: 100.0%; height: 100.0%;"><strong>Launch Virtual Academy</strong><br>Score: 0.0</div>`)[0];
+                popup_c54ce7e8d280c83fe434b842ef596dfb.setContent(html_c4e090fca07c0d99ce6169ae5ab5359a);
+            
+        
+
+        marker_8beb2cc5de12613640ea1e72b7fd6dbf.bindPopup(popup_c54ce7e8d280c83fe434b842ef596dfb)
+        ;
+
+        
+    
+    
+            var marker_e3fdc225af0fb4bc57b3f5644389b52f = L.marker(
+                [32.588, -116.957],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_ad43932fa3d9a6f02e7664419a85fd5e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e3fdc225af0fb4bc57b3f5644389b52f.setIcon(icon_ad43932fa3d9a6f02e7664419a85fd5e);
+        
+    
+        var popup_1472540014b2be36e45b3b1bf6fe844e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6fec267d7348b881a74097c063d62c5 = $(`<div id="html_f6fec267d7348b881a74097c063d62c5" style="width: 100.0%; height: 100.0%;"><strong>Montgomery Middle School</strong><br>Score: 5.0</div>`)[0];
+                popup_1472540014b2be36e45b3b1bf6fe844e.setContent(html_f6fec267d7348b881a74097c063d62c5);
+            
+        
+
+        marker_e3fdc225af0fb4bc57b3f5644389b52f.bindPopup(popup_1472540014b2be36e45b3b1bf6fe844e)
+        ;
+
+        
+    
+    
+            var marker_84a390a3632551e0002c9c3533892f4f = L.marker(
+                [32.6727, -117.0738],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_62edd6d55a847330bcd96ee0002aeec2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_84a390a3632551e0002c9c3533892f4f.setIcon(icon_62edd6d55a847330bcd96ee0002aeec2);
+        
+    
+        var popup_e6d9a45d426fc92c612253d54328feb1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2463f810a021c8d176c4de884fb5dbc = $(`<div id="html_a2463f810a021c8d176c4de884fb5dbc" style="width: 100.0%; height: 100.0%;"><strong>National City Middle School</strong><br>Score: 5.0</div>`)[0];
+                popup_e6d9a45d426fc92c612253d54328feb1.setContent(html_a2463f810a021c8d176c4de884fb5dbc);
+            
+        
+
+        marker_84a390a3632551e0002c9c3533892f4f.bindPopup(popup_e6d9a45d426fc92c612253d54328feb1)
+        ;
+
+        
+    
+    
+            var marker_7e57235b3987a577c656eb7caf7724ec = L.marker(
+                [32.588, -116.957],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_5535e5e66fdf92b81ff0f079b03ffdf1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7e57235b3987a577c656eb7caf7724ec.setIcon(icon_5535e5e66fdf92b81ff0f079b03ffdf1);
+        
+    
+        var popup_3e067d7c4a57ed246da3fb65fafa3403 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17c1579cbe39c86ce505668a9f2139f9 = $(`<div id="html_17c1579cbe39c86ce505668a9f2139f9" style="width: 100.0%; height: 100.0%;"><strong>Options Secondary School</strong><br>Score: 0.0</div>`)[0];
+                popup_3e067d7c4a57ed246da3fb65fafa3403.setContent(html_17c1579cbe39c86ce505668a9f2139f9);
+            
+        
+
+        marker_7e57235b3987a577c656eb7caf7724ec.bindPopup(popup_3e067d7c4a57ed246da3fb65fafa3403)
+        ;
+
+        
+    
+    
+            var marker_6b0b1c5cf704d9592eeb02963e3ab8f9 = L.marker(
+                [32.6313, -117.0609],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_28b3c0b7d79541361d6261facbe893d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6b0b1c5cf704d9592eeb02963e3ab8f9.setIcon(icon_28b3c0b7d79541361d6261facbe893d8);
+        
+    
+        var popup_5368e6ab62264bab0d5457cb3ca343e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69c96c6c2ae6b38633b12d669ce52bda = $(`<div id="html_69c96c6c2ae6b38633b12d669ce52bda" style="width: 100.0%; height: 100.0%;"><strong>Rancho del Rey Middle School</strong><br>Score: 1.0</div>`)[0];
+                popup_5368e6ab62264bab0d5457cb3ca343e7.setContent(html_69c96c6c2ae6b38633b12d669ce52bda);
+            
+        
+
+        marker_6b0b1c5cf704d9592eeb02963e3ab8f9.bindPopup(popup_5368e6ab62264bab0d5457cb3ca343e7)
+        ;
+
+        
+    
+    
+            var marker_67825228a567129c6dbfc082d01d8f68 = L.marker(
+                [32.588, -116.957],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_ffe22d5c58a3856916454bf879830048 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_67825228a567129c6dbfc082d01d8f68.setIcon(icon_ffe22d5c58a3856916454bf879830048);
+        
+    
+        var popup_84493d18c62fd161566ca82bbfa01609 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd8de2bbdfd4fa8bbf02ae0021d167ee = $(`<div id="html_fd8de2bbdfd4fa8bbf02ae0021d167ee" style="width: 100.0%; height: 100.0%;"><strong>Southwest Middle School</strong><br>Score: 2.0</div>`)[0];
+                popup_84493d18c62fd161566ca82bbfa01609.setContent(html_fd8de2bbdfd4fa8bbf02ae0021d167ee);
+            
+        
+
+        marker_67825228a567129c6dbfc082d01d8f68.bindPopup(popup_84493d18c62fd161566ca82bbfa01609)
+        ;
+
+        
+    
+    
+            var marker_72de868256ad2ad9ff37e8a04cb5851f = L.marker(
+                [33.07, -116.6],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_a24b4dd00ed4312173adc2995efa0f12 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_72de868256ad2ad9ff37e8a04cb5851f.setIcon(icon_a24b4dd00ed4312173adc2995efa0f12);
+        
+    
+        var popup_c98d5cbf4b056301f495350211ad575d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76b10a2bbb4fef01cd8b262e4ea17200 = $(`<div id="html_76b10a2bbb4fef01cd8b262e4ea17200" style="width: 100.0%; height: 100.0%;"><strong>Julian Junior High</strong><br>Score: 15.0</div>`)[0];
+                popup_c98d5cbf4b056301f495350211ad575d.setContent(html_76b10a2bbb4fef01cd8b262e4ea17200);
+            
+        
+
+        marker_72de868256ad2ad9ff37e8a04cb5851f.bindPopup(popup_c98d5cbf4b056301f495350211ad575d)
+        ;
+
+        
+    
+    
+            var marker_474c0fad9dd3b959285a5ac8e913537f = L.marker(
+                [33.139123, -117.033069],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_9f068acd66f8293b7763fcf975f72188 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_474c0fad9dd3b959285a5ac8e913537f.setIcon(icon_9f068acd66f8293b7763fcf975f72188);
+        
+    
+        var popup_0acd06bf3cb28266dea000e6a7295af8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8823706b379ae508dad1e62b0cb7d711 = $(`<div id="html_8823706b379ae508dad1e62b0cb7d711" style="width: 100.0%; height: 100.0%;"><strong>Quantum Academy</strong><br>Score: 5.0</div>`)[0];
+                popup_0acd06bf3cb28266dea000e6a7295af8.setContent(html_8823706b379ae508dad1e62b0cb7d711);
+            
+        
+
+        marker_474c0fad9dd3b959285a5ac8e913537f.bindPopup(popup_0acd06bf3cb28266dea000e6a7295af8)
+        ;
+
+        
+    
+    
+            var marker_e55fc2fe1baa8f3f49122e371a760401 = L.marker(
+                [33.0939757, -117.058884],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_38af98b2181d9f442866abbbd59b99c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e55fc2fe1baa8f3f49122e371a760401.setIcon(icon_38af98b2181d9f442866abbbd59b99c8);
+        
+    
+        var popup_981ab225f3d4ae3ec9bae03698cd92a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3ef4decebefe541caf1bb78f7380666 = $(`<div id="html_c3ef4decebefe541caf1bb78f7380666" style="width: 100.0%; height: 100.0%;"><strong>Bear Valley Middle School</strong><br>Score: 3.0</div>`)[0];
+                popup_981ab225f3d4ae3ec9bae03698cd92a8.setContent(html_c3ef4decebefe541caf1bb78f7380666);
+            
+        
+
+        marker_e55fc2fe1baa8f3f49122e371a760401.bindPopup(popup_981ab225f3d4ae3ec9bae03698cd92a8)
+        ;
+
+        
+    
+    
+            var marker_1664e8a6aa7eaa237d47cff555608274 = L.marker(
+                [33.119, -116.939],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_e8aab86751234d656f92b8e25791703c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1664e8a6aa7eaa237d47cff555608274.setIcon(icon_e8aab86751234d656f92b8e25791703c);
+        
+    
+        var popup_71c0d4d440c1990096ab8026b8a1d80b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd93838dce53049c2a7df48d98721771 = $(`<div id="html_dd93838dce53049c2a7df48d98721771" style="width: 100.0%; height: 100.0%;"><strong>Del Dios Academy of Arts and Sciences</strong><br>Score: 5.0</div>`)[0];
+                popup_71c0d4d440c1990096ab8026b8a1d80b.setContent(html_dd93838dce53049c2a7df48d98721771);
+            
+        
+
+        marker_1664e8a6aa7eaa237d47cff555608274.bindPopup(popup_71c0d4d440c1990096ab8026b8a1d80b)
+        ;
+
+        
+    
+    
+            var marker_b6bcf49013ad0d9ae09577de8738ef46 = L.marker(
+                [33.1336, -117.0334],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_c22c1ebfbc9024b7ecdbdec7e7d2d95a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b6bcf49013ad0d9ae09577de8738ef46.setIcon(icon_c22c1ebfbc9024b7ecdbdec7e7d2d95a);
+        
+    
+        var popup_7b5370ea360aa52a73f74c33ba518fcb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb417bfaefffe1b1c2698d2c97b12439 = $(`<div id="html_fb417bfaefffe1b1c2698d2c97b12439" style="width: 100.0%; height: 100.0%;"><strong>Hidden Valley Middle School</strong><br>Score: 3.0</div>`)[0];
+                popup_7b5370ea360aa52a73f74c33ba518fcb.setContent(html_fb417bfaefffe1b1c2698d2c97b12439);
+            
+        
+
+        marker_b6bcf49013ad0d9ae09577de8738ef46.bindPopup(popup_7b5370ea360aa52a73f74c33ba518fcb)
+        ;
+
+        
+    
+    
+            var marker_b481d96d5fd3933ea3dc90a359489e6f = L.marker(
+                [33.1343, -117.0742],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_119194f0d165db7fb67db2c566a6503f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b481d96d5fd3933ea3dc90a359489e6f.setIcon(icon_119194f0d165db7fb67db2c566a6503f);
+        
+    
+        var popup_8de833303569c5aeb86d2e6a4562e764 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1da20570121963c325dc902d4981ac64 = $(`<div id="html_1da20570121963c325dc902d4981ac64" style="width: 100.0%; height: 100.0%;"><strong>Mission Middle School</strong><br>Score: 0.0</div>`)[0];
+                popup_8de833303569c5aeb86d2e6a4562e764.setContent(html_1da20570121963c325dc902d4981ac64);
+            
+        
+
+        marker_b481d96d5fd3933ea3dc90a359489e6f.bindPopup(popup_8de833303569c5aeb86d2e6a4562e764)
+        ;
+
+        
+    
+    
+            var marker_d4af5bdb26d5feea949a698741768a6e = L.marker(
+                [33.119, -116.939],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_ab38a631e8ebb7762aa437d373810a10 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d4af5bdb26d5feea949a698741768a6e.setIcon(icon_ab38a631e8ebb7762aa437d373810a10);
+        
+    
+        var popup_b04a25f5a61bb9beea09300a8d3fd882 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29302f173d9d2ab4a4696c677e1e4919 = $(`<div id="html_29302f173d9d2ab4a4696c677e1e4919" style="width: 100.0%; height: 100.0%;"><strong>Rincon Middle School</strong><br>Score: 3.0</div>`)[0];
+                popup_b04a25f5a61bb9beea09300a8d3fd882.setContent(html_29302f173d9d2ab4a4696c677e1e4919);
+            
+        
+
+        marker_d4af5bdb26d5feea949a698741768a6e.bindPopup(popup_b04a25f5a61bb9beea09300a8d3fd882)
+        ;
+
+        
+    
+    
+            var marker_17700d4cac2d6527d43b35f156f966a7 = L.marker(
+                [32.948, -117.241],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_994ed460b728e3fc85a02b466700f54b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_17700d4cac2d6527d43b35f156f966a7.setIcon(icon_994ed460b728e3fc85a02b466700f54b);
+        
+    
+        var popup_78f28a9209da9a8aef13a13c936bef13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc5807bdaacc383d1255d20af5a94fd8 = $(`<div id="html_bc5807bdaacc383d1255d20af5a94fd8" style="width: 100.0%; height: 100.0%;"><strong>Carmel Valley Middle School</strong><br>Score: 3.0</div>`)[0];
+                popup_78f28a9209da9a8aef13a13c936bef13.setContent(html_bc5807bdaacc383d1255d20af5a94fd8);
+            
+        
+
+        marker_17700d4cac2d6527d43b35f156f966a7.bindPopup(popup_78f28a9209da9a8aef13a13c936bef13)
+        ;
+
+        
+    
+    
+            var marker_68ba997f1c323ca34e2287bb0476776b = L.marker(
+                [33.0543, -117.2455],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_1f77b57ea8b2be6243a1745e72ef63c7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_68ba997f1c323ca34e2287bb0476776b.setIcon(icon_1f77b57ea8b2be6243a1745e72ef63c7);
+        
+    
+        var popup_c257e139fef41d9da68459b0c6a24983 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_217d2a3a5b4e2f97c7d5196cf3044c6c = $(`<div id="html_217d2a3a5b4e2f97c7d5196cf3044c6c" style="width: 100.0%; height: 100.0%;"><strong>Diegueno Middle School</strong><br>Score: 0.0</div>`)[0];
+                popup_c257e139fef41d9da68459b0c6a24983.setContent(html_217d2a3a5b4e2f97c7d5196cf3044c6c);
+            
+        
+
+        marker_68ba997f1c323ca34e2287bb0476776b.bindPopup(popup_c257e139fef41d9da68459b0c6a24983)
+        ;
+
+        
+    
+    
+            var marker_6c07c7b77e55e41c6a927819cfe469b4 = L.marker(
+                [32.989681243896484, -117.26072692871094],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_1eee4beb9479b5c344d2184a34ab3e26 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6c07c7b77e55e41c6a927819cfe469b4.setIcon(icon_1eee4beb9479b5c344d2184a34ab3e26);
+        
+    
+        var popup_05b9b5074cdbea46c5dc3828ffb12566 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6904e1147ad3ac24eded97da79059adc = $(`<div id="html_6904e1147ad3ac24eded97da79059adc" style="width: 100.0%; height: 100.0%;"><strong>Earl Warren Middle School</strong><br>Score: 2.0</div>`)[0];
+                popup_05b9b5074cdbea46c5dc3828ffb12566.setContent(html_6904e1147ad3ac24eded97da79059adc);
+            
+        
+
+        marker_6c07c7b77e55e41c6a927819cfe469b4.bindPopup(popup_05b9b5074cdbea46c5dc3828ffb12566)
+        ;
+
+        
+    
+    
+            var marker_c3927dbcc1ffb978a6cadc0df8ad4e19 = L.marker(
+                [33.021, -117.271],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_e8a3a26d966a252a71d66d778c2dcb8c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c3927dbcc1ffb978a6cadc0df8ad4e19.setIcon(icon_e8a3a26d966a252a71d66d778c2dcb8c);
+        
+    
+        var popup_7627016ebc60eb838c3ac769332c9dbe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1a322ea248377d30db158ba98fba383 = $(`<div id="html_c1a322ea248377d30db158ba98fba383" style="width: 100.0%; height: 100.0%;"><strong>Oak Crest Middle School</strong><br>Score: 1.0</div>`)[0];
+                popup_7627016ebc60eb838c3ac769332c9dbe.setContent(html_c1a322ea248377d30db158ba98fba383);
+            
+        
+
+        marker_c3927dbcc1ffb978a6cadc0df8ad4e19.bindPopup(popup_7627016ebc60eb838c3ac769332c9dbe)
+        ;
+
+        
+    
+    
+            var marker_a797a518f9e517eb00f246023ef36850 = L.marker(
+                [32.948, -117.241],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_892fdfd0bb47258e669c19229607f76e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a797a518f9e517eb00f246023ef36850.setIcon(icon_892fdfd0bb47258e669c19229607f76e);
+        
+    
+        var popup_33e5449b7e1e8c91efb03db00bcf70bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f40f5cea253e88cdf81217eba6355e6 = $(`<div id="html_0f40f5cea253e88cdf81217eba6355e6" style="width: 100.0%; height: 100.0%;"><strong>Pacific Trails Middle School</strong><br>Score: 3.0</div>`)[0];
+                popup_33e5449b7e1e8c91efb03db00bcf70bb.setContent(html_0f40f5cea253e88cdf81217eba6355e6);
+            
+        
+
+        marker_a797a518f9e517eb00f246023ef36850.bindPopup(popup_33e5449b7e1e8c91efb03db00bcf70bb)
+        ;
+
+        
+    
+    
+            var marker_43c64ba3cd49e1d216242369931c9a7c = L.marker(
+                [32.823, -116.536],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_f9ab511e80214c965a0978c3c61b98f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_43c64ba3cd49e1d216242369931c9a7c.setIcon(icon_f9ab511e80214c965a0978c3c61b98f7);
+        
+    
+        var popup_ba5888a0e7c62aabe11dcda68f1f211b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa62cf796d7b207125f654bcfcc4c38e = $(`<div id="html_fa62cf796d7b207125f654bcfcc4c38e" style="width: 100.0%; height: 100.0%;"><strong>Mountain Empire Junior High School</strong><br>Score: 10.0</div>`)[0];
+                popup_ba5888a0e7c62aabe11dcda68f1f211b.setContent(html_fa62cf796d7b207125f654bcfcc4c38e);
+            
+        
+
+        marker_43c64ba3cd49e1d216242369931c9a7c.bindPopup(popup_ba5888a0e7c62aabe11dcda68f1f211b)
+        ;
+
+        
+    
+    
+            var marker_752d8d00b8ccdf4b1f9667d80a6206d3 = L.marker(
+                [33.1458, -117.1763],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_9d93ddda6ce675258b19cbb4e931ef4d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_752d8d00b8ccdf4b1f9667d80a6206d3.setIcon(icon_9d93ddda6ce675258b19cbb4e931ef4d);
+        
+    
+        var popup_eea91b9a293737ccce11cf0c3719e816 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2e7b6455abd083723aa34bf773fa209 = $(`<div id="html_b2e7b6455abd083723aa34bf773fa209" style="width: 100.0%; height: 100.0%;"><strong>San Marcos Middle School</strong><br>Score: 3.0</div>`)[0];
+                popup_eea91b9a293737ccce11cf0c3719e816.setContent(html_b2e7b6455abd083723aa34bf773fa209);
+            
+        
+
+        marker_752d8d00b8ccdf4b1f9667d80a6206d3.bindPopup(popup_eea91b9a293737ccce11cf0c3719e816)
+        ;
+
+        
+    
+    
+            var marker_03749595e7ebdefef9564e90a9d94989 = L.marker(
+                [33.0975, -117.203],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_c4b18768a492e561d87669e7bfd4f46f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_03749595e7ebdefef9564e90a9d94989.setIcon(icon_c4b18768a492e561d87669e7bfd4f46f);
+        
+    
+        var popup_68444ec7466ac654a0c3e795b91d560e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c3ff2b93f0dadae24ca5a8f0b27e7e0 = $(`<div id="html_6c3ff2b93f0dadae24ca5a8f0b27e7e0" style="width: 100.0%; height: 100.0%;"><strong>San Elijo Middle School</strong><br>Score: 3.0</div>`)[0];
+                popup_68444ec7466ac654a0c3e795b91d560e.setContent(html_6c3ff2b93f0dadae24ca5a8f0b27e7e0);
+            
+        
+
+        marker_03749595e7ebdefef9564e90a9d94989.bindPopup(popup_68444ec7466ac654a0c3e795b91d560e)
+        ;
+
+        
+    
+    
+            var marker_2d29643796fcd2175e83faad65d0ced2 = L.marker(
+                [32.6915, -117.179],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_6c0c6747647ad75d43d43adb57f68b93 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2d29643796fcd2175e83faad65d0ced2.setIcon(icon_6c0c6747647ad75d43d43adb57f68b93);
+        
+    
+        var popup_cde3160c642c78a7bac78227d31894ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb4249548e98affba2d0726d3be4524d = $(`<div id="html_eb4249548e98affba2d0726d3be4524d" style="width: 100.0%; height: 100.0%;"><strong>Coronado Middle School</strong><br>Score: 3.0</div>`)[0];
+                popup_cde3160c642c78a7bac78227d31894ae.setContent(html_eb4249548e98affba2d0726d3be4524d);
+            
+        
+
+        marker_2d29643796fcd2175e83faad65d0ced2.bindPopup(popup_cde3160c642c78a7bac78227d31894ae)
+        ;
+
+        
+    
+    
+            var marker_5b91c85e8b9ffafe4a04b2f5a6a8f34f = L.marker(
+                [32.7945, -116.9604],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_b1fc20541fc231114129a08b3818a675 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5b91c85e8b9ffafe4a04b2f5a6a8f34f.setIcon(icon_b1fc20541fc231114129a08b3818a675);
+        
+    
+        var popup_b998b2ee57b8201db28b1e1b5ffd30d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f3c1c196ea244a114d04a9bc5a8cfc6 = $(`<div id="html_6f3c1c196ea244a114d04a9bc5a8cfc6" style="width: 100.0%; height: 100.0%;"><strong>Cajon Valley Middle School</strong><br>Score: 3.0</div>`)[0];
+                popup_b998b2ee57b8201db28b1e1b5ffd30d2.setContent(html_6f3c1c196ea244a114d04a9bc5a8cfc6);
+            
+        
+
+        marker_5b91c85e8b9ffafe4a04b2f5a6a8f34f.bindPopup(popup_b998b2ee57b8201db28b1e1b5ffd30d2)
+        ;
+
+        
+    
+    
+            var marker_e772a4473965d50ed57265a52fef04db = L.marker(
+                [32.8075, -116.933],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_78a182ab95ffd00231446fdc689060ac = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e772a4473965d50ed57265a52fef04db.setIcon(icon_78a182ab95ffd00231446fdc689060ac);
+        
+    
+        var popup_7705c22cb454c89be303ccb1a8bc8f86 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a2443918905aad01b4c5cd544ad89b1 = $(`<div id="html_5a2443918905aad01b4c5cd544ad89b1" style="width: 100.0%; height: 100.0%;"><strong>Greenfield Middle School</strong><br>Score: 9.0</div>`)[0];
+                popup_7705c22cb454c89be303ccb1a8bc8f86.setContent(html_5a2443918905aad01b4c5cd544ad89b1);
+            
+        
+
+        marker_e772a4473965d50ed57265a52fef04db.bindPopup(popup_7705c22cb454c89be303ccb1a8bc8f86)
+        ;
+
+        
+    
+    
+            var marker_6b669e52263001df3da59bee5848f069 = L.marker(
+                [32.7425, -116.933],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_be91d83d31236c0aff5d5f9901a88788 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6b669e52263001df3da59bee5848f069.setIcon(icon_be91d83d31236c0aff5d5f9901a88788);
+        
+    
+        var popup_2061db56910748ba3b895ecd83b21c02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f5ae6697ab499fd185e9441dba6eab0 = $(`<div id="html_6f5ae6697ab499fd185e9441dba6eab0" style="width: 100.0%; height: 100.0%;"><strong>Hillsdale Middle School</strong><br>Score: 12.0</div>`)[0];
+                popup_2061db56910748ba3b895ecd83b21c02.setContent(html_6f5ae6697ab499fd185e9441dba6eab0);
+            
+        
+
+        marker_6b669e52263001df3da59bee5848f069.bindPopup(popup_2061db56910748ba3b895ecd83b21c02)
+        ;
+
+        
+    
+    
+            var marker_703727d4deb2897ebcc999e613ce56a5 = L.marker(
+                [32.833, -116.878],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_2982ee501c9e7a1578cf99190f3dd6f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_703727d4deb2897ebcc999e613ce56a5.setIcon(icon_2982ee501c9e7a1578cf99190f3dd6f5);
+        
+    
+        var popup_869b649fddf9d682b58183b5515b4624 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_493ba585e3bcc5c21adf445d257969fa = $(`<div id="html_493ba585e3bcc5c21adf445d257969fa" style="width: 100.0%; height: 100.0%;"><strong>Los Coches Creek Middle School</strong><br>Score: 15.0</div>`)[0];
+                popup_869b649fddf9d682b58183b5515b4624.setContent(html_493ba585e3bcc5c21adf445d257969fa);
+            
+        
+
+        marker_703727d4deb2897ebcc999e613ce56a5.bindPopup(popup_869b649fddf9d682b58183b5515b4624)
+        ;
+
+        
+    
+    
+            var marker_581dce68bf9897410650d0c1f5f9f0ca = L.marker(
+                [32.7945, -116.933],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_850b214df2ddf128441dbb5d4dac9f01 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_581dce68bf9897410650d0c1f5f9f0ca.setIcon(icon_850b214df2ddf128441dbb5d4dac9f01);
+        
+    
+        var popup_137713a2ac1e5ae8182962b872ce7343 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_118ff045f06a171e44050675c175010e = $(`<div id="html_118ff045f06a171e44050675c175010e" style="width: 100.0%; height: 100.0%;"><strong>Montgomery Middle School</strong><br>Score: 8.0</div>`)[0];
+                popup_137713a2ac1e5ae8182962b872ce7343.setContent(html_118ff045f06a171e44050675c175010e);
+            
+        
+
+        marker_581dce68bf9897410650d0c1f5f9f0ca.bindPopup(popup_137713a2ac1e5ae8182962b872ce7343)
+        ;
+
+        
+    
+    
+            var marker_052f3e910c7f2feb7bf1fec9824af70c = L.marker(
+                [33.1843, -117.2933],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_046b4f2f884e91a79ec48896c9da6bed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_052f3e910c7f2feb7bf1fec9824af70c.setIcon(icon_046b4f2f884e91a79ec48896c9da6bed);
+        
+    
+        var popup_6717016c32c40ee600c970314e27841b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7bacfd2e255c74c29e8e42b1c03dd4b6 = $(`<div id="html_7bacfd2e255c74c29e8e42b1c03dd4b6" style="width: 100.0%; height: 100.0%;"><strong>Madison Middle School</strong><br>Score: 3.0</div>`)[0];
+                popup_6717016c32c40ee600c970314e27841b.setContent(html_7bacfd2e255c74c29e8e42b1c03dd4b6);
+            
+        
+
+        marker_052f3e910c7f2feb7bf1fec9824af70c.bindPopup(popup_6717016c32c40ee600c970314e27841b)
+        ;
+
+        
+    
+    
+            var marker_0629cc237793098e3e3efbda2535c00b = L.marker(
+                [33.2, -117.242],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_15d1373ff2162d29541ff842f1d769de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0629cc237793098e3e3efbda2535c00b.setIcon(icon_15d1373ff2162d29541ff842f1d769de);
+        
+    
+        var popup_d1583452145ace6004fc32514c4a0e95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c13a82c2bda9615e5faf8061238a283 = $(`<div id="html_8c13a82c2bda9615e5faf8061238a283" style="width: 100.0%; height: 100.0%;"><strong>Vista Magnet Middle School</strong><br>Score: 5.0</div>`)[0];
+                popup_d1583452145ace6004fc32514c4a0e95.setContent(html_8c13a82c2bda9615e5faf8061238a283);
+            
+        
+
+        marker_0629cc237793098e3e3efbda2535c00b.bindPopup(popup_d1583452145ace6004fc32514c4a0e95)
+        ;
+
+        
+    
+    
+            var marker_e81afd7cff9f1844e1c1d14b77ef1471 = L.marker(
+                [33.235127, -117.280674],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_b1be779b8218968e8f442aec302c742c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e81afd7cff9f1844e1c1d14b77ef1471.setIcon(icon_b1be779b8218968e8f442aec302c742c);
+        
+    
+        var popup_db30704e196a2d5193a70f7b6696ce4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db81df2797881837f9d7304b7ff172d6 = $(`<div id="html_db81df2797881837f9d7304b7ff172d6" style="width: 100.0%; height: 100.0%;"><strong>Roosevelt Middle School</strong><br>Score: 3.0</div>`)[0];
+                popup_db30704e196a2d5193a70f7b6696ce4c.setContent(html_db81df2797881837f9d7304b7ff172d6);
+            
+        
+
+        marker_e81afd7cff9f1844e1c1d14b77ef1471.bindPopup(popup_db30704e196a2d5193a70f7b6696ce4c)
+        ;
+
+        
+    
+    
+            var marker_104a35ec318abdd386392f3964f417ce = L.marker(
+                [33.02588, -116.87165],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_6c4de6b20f7e8b0c91a1cb0c0e65f47c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_104a35ec318abdd386392f3964f417ce.setIcon(icon_6c4de6b20f7e8b0c91a1cb0c0e65f47c);
+        
+    
+        var popup_c79271c304af6ff6075d0329d7856400 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6b7efda2f33e930202d0eaede804a27 = $(`<div id="html_d6b7efda2f33e930202d0eaede804a27" style="width: 100.0%; height: 100.0%;"><strong>Olive Peirce Middle School</strong><br>Score: 3.0</div>`)[0];
+                popup_c79271c304af6ff6075d0329d7856400.setContent(html_d6b7efda2f33e930202d0eaede804a27);
+            
+        
+
+        marker_104a35ec318abdd386392f3964f417ce.bindPopup(popup_c79271c304af6ff6075d0329d7856400)
+        ;
+
+        
+    
+    
+            var marker_2cc1f82feb6c630351b5b69893fa558f = L.marker(
+                [32.824951, -116.775352],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_fe491dc479e53a5b6840f4f7bd563270 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2cc1f82feb6c630351b5b69893fa558f.setIcon(icon_fe491dc479e53a5b6840f4f7bd563270);
+        
+    
+        var popup_ccbed1134c92c2f8e404f60e067ba727 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a015cb5ad98922a768ac7fadf50af61 = $(`<div id="html_2a015cb5ad98922a768ac7fadf50af61" style="width: 100.0%; height: 100.0%;"><strong>Joan MacQueen Middle School</strong><br>Score: 19.0</div>`)[0];
+                popup_ccbed1134c92c2f8e404f60e067ba727.setContent(html_2a015cb5ad98922a768ac7fadf50af61);
+            
+        
+
+        marker_2cc1f82feb6c630351b5b69893fa558f.bindPopup(popup_ccbed1134c92c2f8e404f60e067ba727)
+        ;
+
+        
+    
+    
+            var marker_d923ffaf58ff1a5c12eb30cb54e90ff2 = L.marker(
+                [32.853161, -116.911407],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_ff0ab77e4c254c934a93f2240205f676 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d923ffaf58ff1a5c12eb30cb54e90ff2.setIcon(icon_ff0ab77e4c254c934a93f2240205f676);
+        
+    
+        var popup_2f41ab5d2f959428815da117801364fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f7ccbd214e70cec46dbb8d650ef32dc = $(`<div id="html_2f7ccbd214e70cec46dbb8d650ef32dc" style="width: 100.0%; height: 100.0%;"><strong>Tierra Del Sol Middle School</strong><br>Score: 13.0</div>`)[0];
+                popup_2f41ab5d2f959428815da117801364fb.setContent(html_2f7ccbd214e70cec46dbb8d650ef32dc);
+            
+        
+
+        marker_d923ffaf58ff1a5c12eb30cb54e90ff2.bindPopup(popup_2f41ab5d2f959428815da117801364fb)
+        ;
+
+        
+    
+    
+            var marker_c9f15ff84906f228138721d186d985b5 = L.marker(
+                [32.574879, -117.095947],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_655d4366f100162a6bad8d7f9762833a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c9f15ff84906f228138721d186d985b5.setIcon(icon_655d4366f100162a6bad8d7f9762833a);
+        
+    
+        var popup_4f88ea7694e957eddb18577e586c9365 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8405f50c07bef3b0de40427552c7fa4f = $(`<div id="html_8405f50c07bef3b0de40427552c7fa4f" style="width: 100.0%; height: 100.0%;"><strong>Mar Vista Academy</strong><br>Score: 4.0</div>`)[0];
+                popup_4f88ea7694e957eddb18577e586c9365.setContent(html_8405f50c07bef3b0de40427552c7fa4f);
+            
+        
+
+        marker_c9f15ff84906f228138721d186d985b5.bindPopup(popup_4f88ea7694e957eddb18577e586c9365)
+        ;
+
+        
+    
+    
+            var marker_6627097b15c39e5f84e24a3131f03a0d = L.marker(
+                [32.562971, -117.038308],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_f84d16946704dbee9a544e159eca5c74 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6627097b15c39e5f84e24a3131f03a0d.setIcon(icon_f84d16946704dbee9a544e159eca5c74);
+        
+    
+        var popup_8a3c072c69ddb3c50b51acaf0eba8910 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1a61eb48d30db361e1b19bad3280b88 = $(`<div id="html_c1a61eb48d30db361e1b19bad3280b88" style="width: 100.0%; height: 100.0%;"><strong>San Ysidro Middle School</strong><br>Score: 3.0</div>`)[0];
+                popup_8a3c072c69ddb3c50b51acaf0eba8910.setContent(html_c1a61eb48d30db361e1b19bad3280b88);
+            
+        
+
+        marker_6627097b15c39e5f84e24a3131f03a0d.bindPopup(popup_8a3c072c69ddb3c50b51acaf0eba8910)
+        ;
+
+        
+    
+    
+            var marker_51b80f6a4b24cd779abbd5a3cf24b90c = L.marker(
+                [32.637018, -116.95977],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_a6f99a34214aa0fb6ee9ff83a45052be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_51b80f6a4b24cd779abbd5a3cf24b90c.setIcon(icon_a6f99a34214aa0fb6ee9ff83a45052be);
+        
+    
+        var popup_6eb35f130eeba1aafff4abdc6d49fb63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_682c61ceeb7aae364a12cb901908cc0f = $(`<div id="html_682c61ceeb7aae364a12cb901908cc0f" style="width: 100.0%; height: 100.0%;"><strong>High Tech Middle Chula Vista School</strong><br>Score: 5.0</div>`)[0];
+                popup_6eb35f130eeba1aafff4abdc6d49fb63.setContent(html_682c61ceeb7aae364a12cb901908cc0f);
+            
+        
+
+        marker_51b80f6a4b24cd779abbd5a3cf24b90c.bindPopup(popup_6eb35f130eeba1aafff4abdc6d49fb63)
+        ;
+
+        
+    
+    
+            var marker_c72e758ad8743490543a4b7d6e814eb9 = L.marker(
+                [32.8439779, -117.0146167],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_686403cac8b54ea650372fae815b4125 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c72e758ad8743490543a4b7d6e814eb9.setIcon(icon_686403cac8b54ea650372fae815b4125);
+        
+    
+        var popup_7da8274bf95353ff98423342b6238717 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fefb567bf8e9600457295075ccad831e = $(`<div id="html_fefb567bf8e9600457295075ccad831e" style="width: 100.0%; height: 100.0%;"><strong>Carlton Oaks School</strong><br>Score: 7.0</div>`)[0];
+                popup_7da8274bf95353ff98423342b6238717.setContent(html_fefb567bf8e9600457295075ccad831e);
+            
+        
+
+        marker_c72e758ad8743490543a4b7d6e814eb9.bindPopup(popup_7da8274bf95353ff98423342b6238717)
+        ;
+
+        
+    
+    
+            var marker_c9a5e6d28ea994c6294fafd12b3f898f = L.marker(
+                [32.8505013, -116.9822672],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_e24a348de25a2033a9356b6a5526953b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c9a5e6d28ea994c6294fafd12b3f898f.setIcon(icon_e24a348de25a2033a9356b6a5526953b);
+        
+    
+        var popup_2ad33c3866ef1040a98fd4ed31f3d4db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5df844fd9fb5668a75ab2d3e9a1547fb = $(`<div id="html_5df844fd9fb5668a75ab2d3e9a1547fb" style="width: 100.0%; height: 100.0%;"><strong>Rio Seco School</strong><br>Score: 12.0</div>`)[0];
+                popup_2ad33c3866ef1040a98fd4ed31f3d4db.setContent(html_5df844fd9fb5668a75ab2d3e9a1547fb);
+            
+        
+
+        marker_c9a5e6d28ea994c6294fafd12b3f898f.bindPopup(popup_2ad33c3866ef1040a98fd4ed31f3d4db)
+        ;
+
+        
+    
+    
+            var marker_0cb6bb066ac3341919ee05fdf3289910 = L.marker(
+                [32.864201, -116.9711475],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_bb0ac38f980dc1104ed25c959f3bd75e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0cb6bb066ac3341919ee05fdf3289910.setIcon(icon_bb0ac38f980dc1104ed25c959f3bd75e);
+        
+    
+        var popup_0716f696f2f8a6327a72992176bc732d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f13992acc433c6a184ef69c0da7cc56 = $(`<div id="html_3f13992acc433c6a184ef69c0da7cc56" style="width: 100.0%; height: 100.0%;"><strong>Cajon Park School</strong><br>Score: 4.0</div>`)[0];
+                popup_0716f696f2f8a6327a72992176bc732d.setContent(html_3f13992acc433c6a184ef69c0da7cc56);
+            
+        
+
+        marker_0cb6bb066ac3341919ee05fdf3289910.bindPopup(popup_0716f696f2f8a6327a72992176bc732d)
+        ;
+
+        
+    
+    
+            var marker_b99d4075a8e4fbbc9a24babc7e5510b7 = L.marker(
+                [33.1479799, -117.1304612],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_fe08e9d676686be6fc5a8a23a40109f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b99d4075a8e4fbbc9a24babc7e5510b7.setIcon(icon_fe08e9d676686be6fc5a8a23a40109f0);
+        
+    
+        var popup_12a00e1cd82c132f6e889dbd9860944c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31afcf9b9354a45a9802135c0064069d = $(`<div id="html_31afcf9b9354a45a9802135c0064069d" style="width: 100.0%; height: 100.0%;"><strong>Woodland Park Middle School</strong><br>Score: 3.0</div>`)[0];
+                popup_12a00e1cd82c132f6e889dbd9860944c.setContent(html_31afcf9b9354a45a9802135c0064069d);
+            
+        
+
+        marker_b99d4075a8e4fbbc9a24babc7e5510b7.bindPopup(popup_12a00e1cd82c132f6e889dbd9860944c)
+        ;
+
+        
+    
+    
+            var marker_d2993be6189d80ec5f7b299d98b81539 = L.marker(
+                [33.0964646, -117.2013412],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_03ded5fea17d37ede8e0cdcb72e3a683 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d2993be6189d80ec5f7b299d98b81539.setIcon(icon_03ded5fea17d37ede8e0cdcb72e3a683);
+        
+    
+        var popup_6e34bd1de7409cc2d8d918a7b0665bc2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46cbc74b4a1b4f8d81060f9eb398b5c7 = $(`<div id="html_46cbc74b4a1b4f8d81060f9eb398b5c7" style="width: 100.0%; height: 100.0%;"><strong>Double Peak School</strong><br>Score: 4.0</div>`)[0];
+                popup_6e34bd1de7409cc2d8d918a7b0665bc2.setContent(html_46cbc74b4a1b4f8d81060f9eb398b5c7);
+            
+        
+
+        marker_d2993be6189d80ec5f7b299d98b81539.bindPopup(popup_6e34bd1de7409cc2d8d918a7b0665bc2)
+        ;
+
+        
+    
+    
+            var marker_84bf90e4ea7d1dbcec4f1c04072318f1 = L.marker(
+                [32.7383832, -117.028018],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_9c6e39391d8c7bb595359bc6c37bca95 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_84bf90e4ea7d1dbcec4f1c04072318f1.setIcon(icon_9c6e39391d8c7bb595359bc6c37bca95);
+        
+    
+        var popup_93db92d66efd305e558b503ab63487f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e6ecaa55b2d5d33f2542909911e62d77 = $(`<div id="html_e6ecaa55b2d5d33f2542909911e62d77" style="width: 100.0%; height: 100.0%;"><strong>Lemon Grove Academy Middle School</strong><br>Score: 4.0</div>`)[0];
+                popup_93db92d66efd305e558b503ab63487f8.setContent(html_e6ecaa55b2d5d33f2542909911e62d77);
+            
+        
+
+        marker_84bf90e4ea7d1dbcec4f1c04072318f1.bindPopup(popup_93db92d66efd305e558b503ab63487f8)
+        ;
+
+        
+    
+    
+            var marker_df14963792fb1f4d25d936937ff0cac3 = L.marker(
+                [33.1588363, -117.3293418],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_5e5ed59fb3e129274cd0856005069cb4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_df14963792fb1f4d25d936937ff0cac3.setIcon(icon_5e5ed59fb3e129274cd0856005069cb4);
+        
+    
+        var popup_424812f2b804905d582709fe9a169a03 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc6c71eb8238a81162c3204b400b77f7 = $(`<div id="html_dc6c71eb8238a81162c3204b400b77f7" style="width: 100.0%; height: 100.0%;"><strong>Valley Middle School</strong><br>Score: 5.0</div>`)[0];
+                popup_424812f2b804905d582709fe9a169a03.setContent(html_dc6c71eb8238a81162c3204b400b77f7);
+            
+        
+
+        marker_df14963792fb1f4d25d936937ff0cac3.bindPopup(popup_424812f2b804905d582709fe9a169a03)
+        ;
+
+        
+    
+    
+            var marker_e105058c11c092be7ff4921cdd816b99 = L.marker(
+                [33.1012549, -117.2765551],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_fda8db602d41288dc8edda0b8d7585af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e105058c11c092be7ff4921cdd816b99.setIcon(icon_fda8db602d41288dc8edda0b8d7585af);
+        
+    
+        var popup_9997c08ac62cca323b0189e5eb824016 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb403de99be8ffca8ea396a7391fa8ba = $(`<div id="html_fb403de99be8ffca8ea396a7391fa8ba" style="width: 100.0%; height: 100.0%;"><strong>Aviara Oaks Middle School</strong><br>Score: 3.0</div>`)[0];
+                popup_9997c08ac62cca323b0189e5eb824016.setContent(html_fb403de99be8ffca8ea396a7391fa8ba);
+            
+        
+
+        marker_e105058c11c092be7ff4921cdd816b99.bindPopup(popup_9997c08ac62cca323b0189e5eb824016)
+        ;
+
+        
+    
+    
+            var marker_7a0df6f66f2e8adce1d38d6675bb1ca4 = L.marker(
+                [33.1742416, -117.2901087],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_0d8189f2e30d5adf86e071dbf339cdf3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7a0df6f66f2e8adce1d38d6675bb1ca4.setIcon(icon_0d8189f2e30d5adf86e071dbf339cdf3);
+        
+    
+        var popup_016b0b1f3a7d00c98b66dcb8d365e017 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7def33cda1b013a72ec2ba6f955361d0 = $(`<div id="html_7def33cda1b013a72ec2ba6f955361d0" style="width: 100.0%; height: 100.0%;"><strong>Calavera Hills Middle School</strong><br>Score: 4.0</div>`)[0];
+                popup_016b0b1f3a7d00c98b66dcb8d365e017.setContent(html_7def33cda1b013a72ec2ba6f955361d0);
+            
+        
+
+        marker_7a0df6f66f2e8adce1d38d6675bb1ca4.bindPopup(popup_016b0b1f3a7d00c98b66dcb8d365e017)
+        ;
+
+        
+    
+    
+            var marker_c0a3967e3c75fdbf6c4f872ec06b7ed4 = L.marker(
+                [33.131591796875, -117.20030975341797],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_7c31b85b921e408f00c77184baf07741 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c0a3967e3c75fdbf6c4f872ec06b7ed4.setIcon(icon_7c31b85b921e408f00c77184baf07741);
+        
+    
+        var popup_31265d899ebf618d711f2e9d5fcbf6f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb58ae0caa22860fa481c6207602d192 = $(`<div id="html_fb58ae0caa22860fa481c6207602d192" style="width: 100.0%; height: 100.0%;"><strong>High Tech High Middle North County</strong><br>Score: 5.0</div>`)[0];
+                popup_31265d899ebf618d711f2e9d5fcbf6f4.setContent(html_fb58ae0caa22860fa481c6207602d192);
+            
+        
+
+        marker_c0a3967e3c75fdbf6c4f872ec06b7ed4.bindPopup(popup_31265d899ebf618d711f2e9d5fcbf6f4)
+        ;
+
+        
+    
+    
+            var marker_e6478c01e5ade7f1bbddf3089f17033c = L.marker(
+                [33.020682, -117.206887],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_34bef3b736a3fde315bded99356fb973 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e6478c01e5ade7f1bbddf3089f17033c.setIcon(icon_34bef3b736a3fde315bded99356fb973);
+        
+    
+        var popup_6730b184a137d6773c60cfea4c753948 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35995dfd45485ca384d6aa8210f51b60 = $(`<div id="html_35995dfd45485ca384d6aa8210f51b60" style="width: 100.0%; height: 100.0%;"><strong>R. Roger Rowe School</strong><br>Score: 1.0</div>`)[0];
+                popup_6730b184a137d6773c60cfea4c753948.setContent(html_35995dfd45485ca384d6aa8210f51b60);
+            
+        
+
+        marker_e6478c01e5ade7f1bbddf3089f17033c.bindPopup(popup_6730b184a137d6773c60cfea4c753948)
+        ;
+
+        
+    
+    
+            var marker_18f1c7efb355bc13ed1e41fa8f0e817d = L.marker(
+                [32.6238168, -116.4745717],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_89ac6d85dc2fa8648088229929660d4e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_18f1c7efb355bc13ed1e41fa8f0e817d.setIcon(icon_89ac6d85dc2fa8648088229929660d4e);
+        
+    
+        var popup_0085861ad1769c5a38bd4dfca993fa6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78032d68a9fc7e88a581b9e24ba7d066 = $(`<div id="html_78032d68a9fc7e88a581b9e24ba7d066" style="width: 100.0%; height: 100.0%;"><strong>Camp Lockett Middle School</strong><br>Score: 11.0</div>`)[0];
+                popup_0085861ad1769c5a38bd4dfca993fa6e.setContent(html_78032d68a9fc7e88a581b9e24ba7d066);
+            
+        
+
+        marker_18f1c7efb355bc13ed1e41fa8f0e817d.bindPopup(popup_0085861ad1769c5a38bd4dfca993fa6e)
+        ;
+
+        
+    
+    
+            var marker_33471dcb1916176c9a6d26d6c61227f2 = L.marker(
+                [33.224312, -116.975705],
+                {
+}
+            ).addTo(map_1c1a232f72edd25041afde5b314219bf);
+        
+    
+            var icon_02f10a856f49d39cb8d954d89445643b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_33471dcb1916176c9a6d26d6c61227f2.setIcon(icon_02f10a856f49d39cb8d954d89445643b);
+        
+    
+        var popup_7c53c4bf12099e597a9b034c0d0e6f44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19543fe370f9a95b5fef5336bc2b5a0c = $(`<div id="html_19543fe370f9a95b5fef5336bc2b5a0c" style="width: 100.0%; height: 100.0%;"><strong>Valley Center Middle School</strong><br>Score: nan</div>`)[0];
+                popup_7c53c4bf12099e597a9b034c0d0e6f44.setContent(html_19543fe370f9a95b5fef5336bc2b5a0c);
+            
+        
+
+        marker_33471dcb1916176c9a6d26d6c61227f2.bindPopup(popup_7c53c4bf12099e597a9b034c0d0e6f44)
+        ;
+
+        
+    
+</script>
+</html>
